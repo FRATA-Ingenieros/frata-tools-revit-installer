@@ -1,0 +1,36 @@
+﻿{
+    "version":  "2.1.1",
+    "company":  "Frata Ingenieros SAC",
+    "authors":  "Franklin James Cabrera Bravo",
+    "copyright":  "Copyright Â© $(CopyrightYears) $(Company)",
+    "releaseDateUtc":  "2026-04-11T21:03:12.1665733Z",
+    "installerPath":  "releases/2.1.1/installer/FrataTools-2.1.1.exe",
+    "metadataSource":  "releases/2.1.1/metadata/Directory.Build.props",
+    "revitArtifacts":  [
+                           {
+                               "revitYear":  "2022",
+                               "configuration":  "Release R22",
+                               "artifactFolder":  "releases/2.1.1/revit/2022"
+                           },
+                           {
+                               "revitYear":  "2023",
+                               "configuration":  "Release R23",
+                               "artifactFolder":  "releases/2.1.1/revit/2023"
+                           },
+                           {
+                               "revitYear":  "2024",
+                               "configuration":  "Release R24",
+                               "artifactFolder":  "releases/2.1.1/revit/2024"
+                           },
+                           {
+                               "revitYear":  "2025",
+                               "configuration":  "Release R25",
+                               "artifactFolder":  "releases/2.1.1/revit/2025"
+                           },
+                           {
+                               "revitYear":  "2026",
+                               "configuration":  "Release R26",
+                               "artifactFolder":  "releases/2.1.1/revit/2026"
+                           }
+                       ]
+}
