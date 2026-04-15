@@ -10,20 +10,20 @@ La version mas reciente disponible es:
 
 | Version | Fecha de publicacion | Revit compatible | Instalador |
 | --- | --- | --- | --- |
-| `3.0.1` | 15/04/2026 | Revit 2022, 2023, 2024, 2025, 2026, 2027 | `FrataTools-3.0.1.exe` |
+| `3.0.2` | 15/04/2026 | Revit 2022, 2023, 2024, 2025, 2026, 2027 | `FrataTools-3.0.2.exe` |
 
 ## Como instalar
 
 1. Descargar el instalador de la version que corresponda.
 2. Cerrar Autodesk Revit antes de iniciar la instalacion.
-3. Ejecutar el archivo `FrataTools-3.0.1.exe`.
+3. Ejecutar el archivo `FrataTools-3.0.2.exe`.
 4. Seguir los pasos del asistente de instalacion.
 5. Abrir Revit.
 6. Verificar que Frata Tools aparezca en la cinta de herramientas de Revit.
 
 ## Versiones de Revit soportadas
 
-La version `3.0.1` incluye soporte para:
+La version `3.0.2` incluye soporte para:
 
 | Autodesk Revit | Estado |
 | --- | --- |
@@ -38,6 +38,7 @@ La version `3.0.1` incluye soporte para:
 
 | Version | Fecha | Revit soportado | Notas |
 | --- | --- | --- | --- |
+| `3.0.2` | 15/04/2026 | 2022, 2023, 2024, 2025, 2026, 2027 | Version publicada del instalador de Frata Tools. |
 | `3.0.1` | 15/04/2026 | 2022, 2023, 2024, 2025, 2026, 2027 | Version publicada del instalador de Frata Tools. |
 | `3.0.0` | 14/04/2026 | 2022, 2023, 2024, 2025, 2026, 2027 | Version publicada del instalador de Frata Tools. |
 | `2.1.4` | 14/04/2026 | 2022, 2023, 2024, 2025, 2026, 2027 | Version publicada del instalador de Frata Tools. |
@@ -57,7 +58,7 @@ La version `3.0.1` incluye soporte para:
 El instalador de la version actual se encuentra en:
 
 ```text
-releases/3.0.1/installer/FrataTools-3.0.1.exe
+releases/3.0.2/installer/FrataTools-3.0.2.exe
 ```
 
 ## Soporte
