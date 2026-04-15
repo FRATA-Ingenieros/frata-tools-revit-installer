@@ -39,7 +39,7 @@ La version `3.0.0` incluye soporte para:
 | Version | Fecha | Revit soportado | Notas |
 | --- | --- | --- | --- |
 | `3.0.0` | 14/04/2026 | 2022, 2023, 2024, 2025, 2026, 2027 | Version publicada del instalador de Frata Tools. |
-| `2.1.4` | 11/04/2026 | 2022, 2023, 2024, 2025, 2026 | Version publicada del instalador de Frata Tools. |
+| `2.1.4` | 14/04/2026 | 2022, 2023, 2024, 2025, 2026, 2027 | Version publicada del instalador de Frata Tools. |
 | `2.1.3` | 11/04/2026 | 2022, 2023, 2024, 2025, 2026 | Version publicada del instalador de Frata Tools. |
 | `2.1.2` | 11/04/2026 | 2022, 2023, 2024, 2025, 2026 | Version publicada del instalador de Frata Tools. |
 | `2.1.1` | 11/04/2026 | 2022, 2023, 2024, 2025, 2026 | Version publicada del instalador de Frata Tools. |
