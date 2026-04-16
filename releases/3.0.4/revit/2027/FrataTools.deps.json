@@ -1,0 +1,618 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "FrataTools/3.0.4": {
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.2",
+          "FrataLibrary": "3.0.4",
+          "FrataLibrary.UI": "3.0.4",
+          "Hangfire.Core": "1.8.23",
+          "Manage": "3.0.4",
+          "Navigate": "3.0.4",
+          "Newtonsoft.Json": "13.0.4",
+          "Nice3point.Revit.Extensions": "2027.0.0",
+          "Nice3point.Revit.Toolkit": "2027.0.0",
+          "Serilog.Sinks.Autodesk.Revit": "2.0.1",
+          "Serilog.Sinks.Console": "6.1.1",
+          "Serilog.Sinks.Debug": "3.0.0",
+          "Structure.Create": "3.0.4",
+          "Structure.Modify": "3.0.4",
+          "System.Management": "8.0.0"
+        },
+        "runtime": {
+          "FrataTools.dll": {}
+        },
+        "resources": {
+          "es-ES/FrataTools.resources.dll": {
+            "locale": "es-ES"
+          }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.4.2": {
+        "runtime": {
+          "lib/net8.0/CommunityToolkit.Mvvm.dll": {
+            "assemblyVersion": "8.4.0.0",
+            "fileVersion": "8.4.2.1"
+          }
+        }
+      },
+      "EPPlus/8.5.3": {
+        "dependencies": {
+          "EPPlus.Interfaces": "8.4.0",
+          "Microsoft.Extensions.Configuration.Json": "10.0.6",
+          "Microsoft.IO.RecyclableMemoryStream": "3.0.1"
+        },
+        "runtime": {
+          "lib/net10.0/EPPlus.dll": {
+            "assemblyVersion": "8.5.3.0",
+            "fileVersion": "8.5.3.0"
+          }
+        }
+      },
+      "EPPlus.Interfaces/8.4.0": {
+        "runtime": {
+          "lib/net10.0/EPPlus.Interfaces.dll": {
+            "assemblyVersion": "8.4.0.0",
+            "fileVersion": "8.4.0.0"
+          }
+        }
+      },
+      "Hangfire.Core/1.8.23": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Hangfire.Core.dll": {
+            "assemblyVersion": "1.8.23.0",
+            "fileVersion": "1.8.23.0"
+          }
+        },
+        "resources": {
+          "lib/netstandard2.0/ca/Hangfire.Core.resources.dll": {
+            "locale": "ca"
+          },
+          "lib/netstandard2.0/de/Hangfire.Core.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netstandard2.0/es/Hangfire.Core.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netstandard2.0/fa/Hangfire.Core.resources.dll": {
+            "locale": "fa"
+          },
+          "lib/netstandard2.0/fr/Hangfire.Core.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netstandard2.0/nb/Hangfire.Core.resources.dll": {
+            "locale": "nb"
+          },
+          "lib/netstandard2.0/nl/Hangfire.Core.resources.dll": {
+            "locale": "nl"
+          },
+          "lib/netstandard2.0/pt-BR/Hangfire.Core.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/netstandard2.0/pt-PT/Hangfire.Core.resources.dll": {
+            "locale": "pt-PT"
+          },
+          "lib/netstandard2.0/pt/Hangfire.Core.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/netstandard2.0/sv/Hangfire.Core.resources.dll": {
+            "locale": "sv"
+          },
+          "lib/netstandard2.0/tr-TR/Hangfire.Core.resources.dll": {
+            "locale": "tr-TR"
+          },
+          "lib/netstandard2.0/zh-TW/Hangfire.Core.resources.dll": {
+            "locale": "zh-TW"
+          },
+          "lib/netstandard2.0/zh/Hangfire.Core.resources.dll": {
+            "locale": "zh"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration/10.0.6": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "10.0.6",
+          "Microsoft.Extensions.Primitives": "10.0.6"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.Extensions.Configuration.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.626.17701"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/10.0.6": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "10.0.6"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.626.17701"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.FileExtensions/10.0.6": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "10.0.6",
+          "Microsoft.Extensions.Configuration.Abstractions": "10.0.6",
+          "Microsoft.Extensions.FileProviders.Abstractions": "10.0.6",
+          "Microsoft.Extensions.FileProviders.Physical": "10.0.6",
+          "Microsoft.Extensions.Primitives": "10.0.6"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.Extensions.Configuration.FileExtensions.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.626.17701"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.Json/10.0.6": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "10.0.6",
+          "Microsoft.Extensions.Configuration.Abstractions": "10.0.6",
+          "Microsoft.Extensions.Configuration.FileExtensions": "10.0.6",
+          "Microsoft.Extensions.FileProviders.Abstractions": "10.0.6"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.Extensions.Configuration.Json.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.626.17701"
+          }
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Abstractions/10.0.6": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "10.0.6"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.626.17701"
+          }
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Physical/10.0.6": {
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Abstractions": "10.0.6",
+          "Microsoft.Extensions.FileSystemGlobbing": "10.0.6",
+          "Microsoft.Extensions.Primitives": "10.0.6"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.Extensions.FileProviders.Physical.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.626.17701"
+          }
+        }
+      },
+      "Microsoft.Extensions.FileSystemGlobbing/10.0.6": {
+        "runtime": {
+          "lib/net10.0/Microsoft.Extensions.FileSystemGlobbing.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.626.17701"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/10.0.6": {
+        "runtime": {
+          "lib/net10.0/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.626.17701"
+          }
+        }
+      },
+      "Microsoft.IO.RecyclableMemoryStream/3.0.1": {
+        "runtime": {
+          "lib/net6.0/Microsoft.IO.RecyclableMemoryStream.dll": {
+            "assemblyVersion": "3.0.1.0",
+            "fileVersion": "3.0.1.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.4": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.4.30916"
+          }
+        }
+      },
+      "Nice3point.Revit.Extensions/2027.0.0": {
+        "runtime": {
+          "lib/net10.0-windows7.0/Nice3point.Revit.Extensions.dll": {
+            "assemblyVersion": "2027.0.0.0",
+            "fileVersion": "2027.0.0.0"
+          }
+        }
+      },
+      "Nice3point.Revit.Toolkit/2027.0.0": {
+        "runtime": {
+          "lib/net10.0-windows7.0/Nice3point.Revit.Toolkit.dll": {
+            "assemblyVersion": "2027.0.0.0",
+            "fileVersion": "2027.0.0.0"
+          }
+        }
+      },
+      "Serilog/4.0.0": {
+        "runtime": {
+          "lib/net8.0/Serilog.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "Serilog.Sinks.Autodesk.Revit/2.0.1": {
+        "dependencies": {
+          "Serilog": "4.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/Serilog.Sinks.Autodesk.Revit.dll": {
+            "assemblyVersion": "2.0.1.0",
+            "fileVersion": "2.0.1.0"
+          }
+        }
+      },
+      "Serilog.Sinks.Console/6.1.1": {
+        "dependencies": {
+          "Serilog": "4.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/Serilog.Sinks.Console.dll": {
+            "assemblyVersion": "6.1.1.0",
+            "fileVersion": "6.1.1.0"
+          }
+        }
+      },
+      "Serilog.Sinks.Debug/3.0.0": {
+        "dependencies": {
+          "Serilog": "4.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/Serilog.Sinks.Debug.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "System.Management/8.0.0": {
+        "runtime": {
+          "lib/net8.0/System.Management.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net8.0/System.Management.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "FrataLibrary/3.0.4": {
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.2",
+          "FrataLibrary.UI": "3.0.4",
+          "Hangfire.Core": "1.8.23",
+          "Newtonsoft.Json": "13.0.4",
+          "Nice3point.Revit.Extensions": "2027.0.0",
+          "Nice3point.Revit.Toolkit": "2027.0.0",
+          "Serilog.Sinks.Autodesk.Revit": "2.0.1",
+          "Serilog.Sinks.Console": "6.1.1",
+          "Serilog.Sinks.Debug": "3.0.0",
+          "System.Management": "8.0.0"
+        },
+        "runtime": {
+          "FrataLibrary.dll": {
+            "assemblyVersion": "3.0.4.0",
+            "fileVersion": "3.0.4.0"
+          }
+        },
+        "resources": {
+          "ru/FrataLibrary.resources.dll": {
+            "locale": "ru"
+          }
+        }
+      },
+      "FrataLibrary.UI/3.0.4": {
+        "runtime": {
+          "FrataLibrary.UI.dll": {
+            "assemblyVersion": "3.0.4.0",
+            "fileVersion": "3.0.4.0"
+          }
+        }
+      },
+      "Manage/3.0.4": {
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.2",
+          "EPPlus": "8.5.3",
+          "FrataLibrary": "3.0.4",
+          "FrataLibrary.UI": "3.0.4",
+          "Nice3point.Revit.Extensions": "2027.0.0",
+          "Nice3point.Revit.Toolkit": "2027.0.0",
+          "Serilog.Sinks.Autodesk.Revit": "2.0.1",
+          "Serilog.Sinks.Console": "6.1.1",
+          "Serilog.Sinks.Debug": "3.0.0",
+          "System.Management": "8.0.0"
+        },
+        "runtime": {
+          "Manage.dll": {
+            "assemblyVersion": "3.0.4.0",
+            "fileVersion": "3.0.4.0"
+          }
+        },
+        "resources": {
+          "es-ES/Manage.resources.dll": {
+            "locale": "es-ES"
+          }
+        }
+      },
+      "Navigate/3.0.4": {
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.2",
+          "FrataLibrary": "3.0.4",
+          "FrataLibrary.UI": "3.0.4",
+          "Nice3point.Revit.Extensions": "2027.0.0",
+          "Nice3point.Revit.Toolkit": "2027.0.0",
+          "Serilog.Sinks.Autodesk.Revit": "2.0.1",
+          "Serilog.Sinks.Console": "6.1.1",
+          "Serilog.Sinks.Debug": "3.0.0",
+          "System.Management": "8.0.0"
+        },
+        "runtime": {
+          "Navigate.dll": {
+            "assemblyVersion": "3.0.4.0",
+            "fileVersion": "3.0.4.0"
+          }
+        },
+        "resources": {
+          "es-ES/Navigate.resources.dll": {
+            "locale": "es-ES"
+          }
+        }
+      },
+      "Structure.Create/3.0.4": {
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.2",
+          "FrataLibrary": "3.0.4",
+          "FrataLibrary.UI": "3.0.4",
+          "Nice3point.Revit.Extensions": "2027.0.0",
+          "Nice3point.Revit.Toolkit": "2027.0.0",
+          "Serilog.Sinks.Autodesk.Revit": "2.0.1",
+          "Serilog.Sinks.Console": "6.1.1",
+          "Serilog.Sinks.Debug": "3.0.0",
+          "System.Management": "8.0.0"
+        },
+        "runtime": {
+          "Structure.Create.dll": {
+            "assemblyVersion": "3.0.4.0",
+            "fileVersion": "3.0.4.0"
+          }
+        },
+        "resources": {
+          "es-Es/Structure.Create.resources.dll": {
+            "locale": "es-Es"
+          }
+        }
+      },
+      "Structure.Modify/3.0.4": {
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.2",
+          "FrataLibrary": "3.0.4",
+          "FrataLibrary.UI": "3.0.4",
+          "Manage": "3.0.4",
+          "Nice3point.Revit.Extensions": "2027.0.0",
+          "Nice3point.Revit.Toolkit": "2027.0.0",
+          "Serilog.Sinks.Autodesk.Revit": "2.0.1",
+          "Serilog.Sinks.Console": "6.1.1",
+          "Serilog.Sinks.Debug": "3.0.0",
+          "System.Management": "8.0.0"
+        },
+        "runtime": {
+          "Structure.Modify.dll": {
+            "assemblyVersion": "3.0.4.0",
+            "fileVersion": "3.0.4.0"
+          }
+        },
+        "resources": {
+          "es-ES/Structure.Modify.resources.dll": {
+            "locale": "es-ES"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FrataTools/3.0.4": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CommunityToolkit.Mvvm/8.4.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WadCzGEc2U+3e20avRLng4qNtt4zoOGWrdUISqJWrHe3/FSnrYjuM5Sb4yQb09LhkBXrrI4Zt3dLKgRMbItsrg==",
+      "path": "communitytoolkit.mvvm/8.4.2",
+      "hashPath": "communitytoolkit.mvvm.8.4.2.nupkg.sha512"
+    },
+    "EPPlus/8.5.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wU+ogF8qJTLoAqmD+X7ZCWAj2uUsIV8omXm4SkHhIGS4LPfWxlFDQhLb5FPedNp+0dDEA2S8dEpvtCezpzUgBA==",
+      "path": "epplus/8.5.3",
+      "hashPath": "epplus.8.5.3.nupkg.sha512"
+    },
+    "EPPlus.Interfaces/8.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QaEzDFG2vcQMPqUmoWv0vBTObtH8hffQmyDr2WkqRYF/nFSn2pkdBB4vudcd/EIv0N8M3P1fzzkPQgEWsFnUmA==",
+      "path": "epplus.interfaces/8.4.0",
+      "hashPath": "epplus.interfaces.8.4.0.nupkg.sha512"
+    },
+    "Hangfire.Core/1.8.23": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YCOTtF3NNOQI83PlfjeNDDBkofJDfdET2CwhfQsiVBwmsU6lP19QW9NVTIH9epl+MnOsyFC2G1RnlPSGV8F1FQ==",
+      "path": "hangfire.core/1.8.23",
+      "hashPath": "hangfire.core.1.8.23.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration/10.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lYQ9S1FGXIWIU7243RimdAXQYsFDeLhSSZvbSDwbeI/kCzZ4MIYXpp3kMQ+bDJXwl9pzMRIYkd4f9zGqcYxfAQ==",
+      "path": "microsoft.extensions.configuration/10.0.6",
+      "hashPath": "microsoft.extensions.configuration.10.0.6.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/10.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-a7bA7IT3ngIgcOMb/2MVH5CcfSxUCeQ6QXWS1Vt6oFpzLTH3U1+J2Xtc64Uw3whX9akYG8eR/UQeEzxo64zZLg==",
+      "path": "microsoft.extensions.configuration.abstractions/10.0.6",
+      "hashPath": "microsoft.extensions.configuration.abstractions.10.0.6.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.FileExtensions/10.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hils30RkqBbtQVupvgUr7sgxJUYPc6YMEDge1QAXGTOhbRlqk2I0OH+BWMSsQjYnbGX2Ytl6EkrLgu9im6vE0w==",
+      "path": "microsoft.extensions.configuration.fileextensions/10.0.6",
+      "hashPath": "microsoft.extensions.configuration.fileextensions.10.0.6.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Json/10.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-o/IG5ywTfT5U1ANCAC4w1vKtXapdL/OlunywrWboySYJB79eX0+mw7qxqNRkq1WMZOJoSyjPjbyZ17l3LS7A6Q==",
+      "path": "microsoft.extensions.configuration.json/10.0.6",
+      "hashPath": "microsoft.extensions.configuration.json.10.0.6.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileProviders.Abstractions/10.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iU/lPyrjHVA4jJ7Bl/VpXvgsAD4qJWc4oPSVJjMBeZjmv7IIo8wBKxnOUoXdZcSCUJ6MeBMs3WpXNfncO7OzRg==",
+      "path": "microsoft.extensions.fileproviders.abstractions/10.0.6",
+      "hashPath": "microsoft.extensions.fileproviders.abstractions.10.0.6.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileProviders.Physical/10.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-t6T7umdzTKkSBOUMe5RYk826cTCsDU0hne9lPN5RGOSb3Kq0Xw8OEErM4zJ4dgZWV3G0ObK1Hf1IVU88uIKe6A==",
+      "path": "microsoft.extensions.fileproviders.physical/10.0.6",
+      "hashPath": "microsoft.extensions.fileproviders.physical.10.0.6.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileSystemGlobbing/10.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EG9GuYJlj1o1G8maSpKceZdj88OehKFRWaWp8BWUQWlvIJDWD8N0sIYDoRMGL/yX85H8KbVYPR9+dH/UjPEiKw==",
+      "path": "microsoft.extensions.filesystemglobbing/10.0.6",
+      "hashPath": "microsoft.extensions.filesystemglobbing.10.0.6.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/10.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-L8P21mqaG+CXvPheLndean/cHCOcItJqH8nx+0YQnK7wAiOR0G1IOC418ZSzTMD2D6Gmo0f2M5WR70XtpX2B8g==",
+      "path": "microsoft.extensions.primitives/10.0.6",
+      "hashPath": "microsoft.extensions.primitives.10.0.6.nupkg.sha512"
+    },
+    "Microsoft.IO.RecyclableMemoryStream/3.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-s/s20YTVY9r9TPfTrN5g8zPF1YhwxyqO6PxUkrYTGI2B+OGPe9AdajWZrLhFqXIvqIW23fnUE4+ztrUWNU1+9g==",
+      "path": "microsoft.io.recyclablememorystream/3.0.1",
+      "hashPath": "microsoft.io.recyclablememorystream.3.0.1.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pdgNNMai3zv51W5aq268sujXUyx7SNdE2bj1wZcWjAQrKMFZV260lbqYop1d2GM67JI1huLRwxo9ZqnfF/lC6A==",
+      "path": "newtonsoft.json/13.0.4",
+      "hashPath": "newtonsoft.json.13.0.4.nupkg.sha512"
+    },
+    "Nice3point.Revit.Extensions/2027.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fismi02jPnfXvu+diDDvZ/MBKnpen9gZ0oUl1n4MOvM7oY9TsElMESUUXYoVXT99yqjrOmuIJdEgMWZ84uwPCQ==",
+      "path": "nice3point.revit.extensions/2027.0.0",
+      "hashPath": "nice3point.revit.extensions.2027.0.0.nupkg.sha512"
+    },
+    "Nice3point.Revit.Toolkit/2027.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kAUZtgXMWZkRJQTacJmUyI17M3iga9iqdnZ6+Frk1ScIkPjlasyXPn6U+xafO4ayH2V3LtBOBgJSxcTzK08ssg==",
+      "path": "nice3point.revit.toolkit/2027.0.0",
+      "hashPath": "nice3point.revit.toolkit.2027.0.0.nupkg.sha512"
+    },
+    "Serilog/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2jDkUrSh5EofOp7Lx5Zgy0EB+7hXjjxE2ktTb1WVQmU00lDACR2TdROGKU0K1pDTBSJBN1PqgYpgOZF8mL7NJw==",
+      "path": "serilog/4.0.0",
+      "hashPath": "serilog.4.0.0.nupkg.sha512"
+    },
+    "Serilog.Sinks.Autodesk.Revit/2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GRVMaAwsSyVNP3TY74AS0nvjM6338Q2fBWg6Lan74GYBEbEh4aa46k9e88eQT0lRIYn6WVkcUe264mtRxBrQHg==",
+      "path": "serilog.sinks.autodesk.revit/2.0.1",
+      "hashPath": "serilog.sinks.autodesk.revit.2.0.1.nupkg.sha512"
+    },
+    "Serilog.Sinks.Console/6.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8jbqgjUyZlfCuSTaJk6lOca465OndqOz3KZP6Cryt/IqZYybyBu7GP0fE/AXBzrrQB3EBmQntBFAvMVz1COvAA==",
+      "path": "serilog.sinks.console/6.1.1",
+      "hashPath": "serilog.sinks.console.6.1.1.nupkg.sha512"
+    },
+    "Serilog.Sinks.Debug/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4BzXcdrgRX7wde9PmHuYd9U6YqycCC28hhpKonK7hx0wb19eiuRj16fPcPSVp0o/Y1ipJuNLYQ00R3q2Zs8FDA==",
+      "path": "serilog.sinks.debug/3.0.0",
+      "hashPath": "serilog.sinks.debug.3.0.0.nupkg.sha512"
+    },
+    "System.Management/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jrK22i5LRzxZCfGb+tGmke2VH7oE0DvcDlJ1HAKYU8cPmD8XnpUT0bYn2Gy98GEhGjtfbR/sxKTVb+dE770pfA==",
+      "path": "system.management/8.0.0",
+      "hashPath": "system.management.8.0.0.nupkg.sha512"
+    },
+    "FrataLibrary/3.0.4": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FrataLibrary.UI/3.0.4": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Manage/3.0.4": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Navigate/3.0.4": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Structure.Create/3.0.4": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Structure.Modify/3.0.4": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
