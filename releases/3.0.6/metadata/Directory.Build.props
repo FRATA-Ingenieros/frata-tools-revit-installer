@@ -1,0 +1,22 @@
+<Project>
+
+    <!--
+        Este archivo es importado AUTOMÁTICAMENTE por MSBuild en todos los proyectos de la solución.
+        Aquí va todo lo que es universal: versión del addin, empresa, autor.
+
+        Para actualizar la versión del addin: cambiar SOLO esta línea.
+        Formato: MAJOR.MINOR.PATCH
+          MAJOR → cambios grandes / breaking
+          MINOR → feature nuevo (botón/herramienta nueva)
+          PATCH → bug fix
+    -->
+
+    <PropertyGroup>
+        <Version>3.0.6</Version>
+        <Company>Frata Ingenieros SAC</Company>
+        <Authors>Franklin James Cabrera Bravo</Authors>
+        <CopyrightYears>$([System.DateTime]::Now.ToString('yyyy'))</CopyrightYears>
+        <Copyright>Copyright © $(CopyrightYears) $(Company)</Copyright>
+    </PropertyGroup>
+
+</Project>
