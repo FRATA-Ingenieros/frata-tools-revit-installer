@@ -10,7 +10,7 @@ La version mas reciente disponible es:
 
 | Version | Fecha de publicacion | Revit compatible | Instalador |
 | --- | --- | --- | --- |
-| `4.0.0` | 30/06/2026 | Revit 2022, 2023, 2024, 2025, 2026, 2027 | `FrataTools-4.0.0.exe` |
+| `4.0.0` | 01/07/2026 | Revit 2022, 2023, 2024, 2025, 2026, 2027 | `FrataTools-4.0.0.exe` |
 
 ## Como instalar
 
@@ -38,7 +38,7 @@ La version `4.0.0` incluye soporte para:
 
 | Version | Fecha | Revit soportado | Notas |
 | --- | --- | --- | --- |
-| `4.0.0` | 30/06/2026 | 2022, 2023, 2024, 2025, 2026, 2027 | Version publicada del instalador de Frata Tools. |
+| `4.0.0` | 01/07/2026 | 2022, 2023, 2024, 2025, 2026, 2027 | Version publicada del instalador de Frata Tools. |
 | `3.1.8` | 28/06/2026 | 2022, 2023, 2024, 2025, 2026, 2027 | Version publicada del instalador de Frata Tools. |
 | `3.1.7` | 22/06/2026 | 2022, 2023, 2024, 2025, 2026, 2027 | Version publicada del instalador de Frata Tools. |
 | `3.1.6` | 20/06/2026 | 2022, 2023, 2024, 2025, 2026, 2027 | Version publicada del instalador de Frata Tools. |
