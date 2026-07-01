@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+	<AddIn Type="Application">
+		<Name>Aplicacion FrataTools</Name>
+		<Assembly>FrataTools\FrataTools.dll</Assembly>
+		<ClientId>11f2309e-5027-4d96-adbe-0f37dca819bb</ClientId>
+		<FullClassName>FrataTools.FrataApp</FullClassName>
+		<VendorId>FrataApp</VendorId>
+	</AddIn>	
+</RevitAddIns>
+
