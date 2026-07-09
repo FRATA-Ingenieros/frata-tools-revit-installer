@@ -1293,7 +1293,7 @@
     "Frata.Library/2026.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-AAt8heJJGBH4ifv+XvxEN54Zjj7BrfBkZyjlmv3zvAv4clUmkFvU/QI7Di6G8X0ph1R6EfXyoXmxj1RrI1bKBw==",
+      "sha512": "sha512-X0cZKvOWv4uXadSgeON//z1uXqqsktOC/2oSIIqipbZ33rdgPyKjnw/YLtUloQlz7xPgGp6kOCgc+GqXT+aaDQ==",
       "path": "frata.library/2026.1.0",
       "hashPath": "frata.library.2026.1.0.nupkg.sha512"
     },

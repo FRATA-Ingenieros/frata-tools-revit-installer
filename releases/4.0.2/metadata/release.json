@@ -3,7 +3,7 @@
     "company":  "Frata Ingenieros SAC",
     "authors":  "Franklin James Cabrera Bravo",
     "copyright":  "Copyright Â© $(CopyrightYears) $(Company)",
-    "releaseDateUtc":  "2026-07-08T23:53:44.2436204Z",
+    "releaseDateUtc":  "2026-07-09T02:10:34.1433436Z",
     "installerPath":  "releases/4.0.2/installer/FrataTools-4.0.2.exe",
     "metadataSource":  "releases/4.0.2/metadata/Directory.Build.props",
     "revitArtifacts":  [
