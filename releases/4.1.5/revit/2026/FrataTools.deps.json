@@ -1,0 +1,2853 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "FrataTools/4.1.5": {
+        "dependencies": {
+          "Architecture": "4.1.5",
+          "CommunityToolkit.Mvvm": "8.4.2",
+          "Drawing2D": "4.1.5",
+          "Frata.Library": "2026.1.29",
+          "Frata.Library.UI": "1.1.1",
+          "Hangfire.Core": "1.8.25",
+          "MEP": "4.1.5",
+          "Manage": "4.1.5",
+          "Navigate": "4.1.5",
+          "Newtonsoft.Json": "13.0.4",
+          "Nice3point.Revit.Extensions": "2026.1.4",
+          "Nice3point.Revit.Toolkit": "2026.1.0",
+          "Serilog.Sinks.Autodesk.Revit": "2.0.1",
+          "Serilog.Sinks.Console": "6.1.1",
+          "Serilog.Sinks.Debug": "3.0.0",
+          "Structure": "4.1.5",
+          "System.Management": "8.0.0",
+          "Architecture.Reference": "4.1.5.0",
+          "Drawing2D.Reference": "4.1.5.0",
+          "Manage.Reference": "4.1.5.0",
+          "MEP.Reference": "4.1.5.0",
+          "Navigate.Reference": "4.1.5.0",
+          "Structure.Reference": "4.1.5.0"
+        },
+        "runtime": {
+          "FrataTools.dll": {}
+        },
+        "resources": {
+          "de-DE/FrataTools.resources.dll": {
+            "locale": "de-DE"
+          },
+          "es-ES/FrataTools.resources.dll": {
+            "locale": "es-ES"
+          },
+          "fr-FR/FrataTools.resources.dll": {
+            "locale": "fr-FR"
+          },
+          "it-IT/FrataTools.resources.dll": {
+            "locale": "it-IT"
+          },
+          "pt-BR/FrataTools.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "ru-RU/FrataTools.resources.dll": {
+            "locale": "ru-RU"
+          },
+          "zh-CN/FrataTools.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "ClosedXML/0.105.1": {
+        "dependencies": {
+          "ClosedXML.Parser": "2.0.0",
+          "DocumentFormat.OpenXml": "3.1.1",
+          "ExcelNumberFormat": "1.1.0",
+          "RBush.Signed": "4.0.0",
+          "SixLabors.Fonts": "1.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/ClosedXML.dll": {
+            "assemblyVersion": "0.105.1.0",
+            "fileVersion": "0.105.1.0"
+          }
+        }
+      },
+      "ClosedXML.Parser/2.0.0": {
+        "runtime": {
+          "lib/netstandard2.1/ClosedXML.Parser.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.4.2": {
+        "runtime": {
+          "lib/net8.0/CommunityToolkit.Mvvm.dll": {
+            "assemblyVersion": "8.4.0.0",
+            "fileVersion": "8.4.2.1"
+          }
+        }
+      },
+      "DocumentFormat.OpenXml/3.1.1": {
+        "dependencies": {
+          "DocumentFormat.OpenXml.Framework": "3.1.1"
+        },
+        "runtime": {
+          "lib/net8.0/DocumentFormat.OpenXml.dll": {
+            "assemblyVersion": "3.1.1.0",
+            "fileVersion": "3.1.1.0"
+          }
+        }
+      },
+      "DocumentFormat.OpenXml.Framework/3.1.1": {
+        "dependencies": {
+          "System.IO.Packaging": "8.0.1"
+        },
+        "runtime": {
+          "lib/net8.0/DocumentFormat.OpenXml.Framework.dll": {
+            "assemblyVersion": "3.1.1.0",
+            "fileVersion": "3.1.1.0"
+          }
+        }
+      },
+      "ExcelNumberFormat/1.1.0": {
+        "runtime": {
+          "lib/netstandard2.0/ExcelNumberFormat.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
+          }
+        }
+      },
+      "Frata.Library/2026.1.29": {
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.2",
+          "Frata.Library.UI": "1.1.1",
+          "Newtonsoft.Json": "13.0.4",
+          "Nice3point.Revit.Extensions": "2026.1.4",
+          "Nice3point.Revit.Toolkit": "2026.1.0",
+          "Serilog.Sinks.Autodesk.Revit": "2.0.1",
+          "Serilog.Sinks.Console": "6.1.1",
+          "Serilog.Sinks.Debug": "3.0.0",
+          "System.Management": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/FrataLibrary.dll": {
+            "assemblyVersion": "2026.1.29.0",
+            "fileVersion": "2026.1.29.0"
+          }
+        },
+        "resources": {
+          "lib/net8.0-windows7.0/de/FrataLibrary.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net8.0-windows7.0/es/FrataLibrary.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net8.0-windows7.0/fr/FrataLibrary.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net8.0-windows7.0/it/FrataLibrary.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net8.0-windows7.0/ja/FrataLibrary.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net8.0-windows7.0/pt/FrataLibrary.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net8.0-windows7.0/ru/FrataLibrary.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net8.0-windows7.0/zh/FrataLibrary.resources.dll": {
+            "locale": "zh"
+          }
+        }
+      },
+      "Frata.Library.UI/1.1.1": {
+        "runtime": {
+          "lib/net8.0-windows7.0/FrataLibrary.UI.dll": {
+            "assemblyVersion": "1.1.1.0",
+            "fileVersion": "1.1.1.0"
+          }
+        }
+      },
+      "Hangfire.Core/1.8.25": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Hangfire.Core.dll": {
+            "assemblyVersion": "1.8.25.0",
+            "fileVersion": "1.8.25.0"
+          }
+        },
+        "resources": {
+          "lib/netstandard2.0/ca/Hangfire.Core.resources.dll": {
+            "locale": "ca"
+          },
+          "lib/netstandard2.0/de/Hangfire.Core.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netstandard2.0/es/Hangfire.Core.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netstandard2.0/fa/Hangfire.Core.resources.dll": {
+            "locale": "fa"
+          },
+          "lib/netstandard2.0/fr/Hangfire.Core.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netstandard2.0/nb/Hangfire.Core.resources.dll": {
+            "locale": "nb"
+          },
+          "lib/netstandard2.0/nl/Hangfire.Core.resources.dll": {
+            "locale": "nl"
+          },
+          "lib/netstandard2.0/pt-BR/Hangfire.Core.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/netstandard2.0/pt-PT/Hangfire.Core.resources.dll": {
+            "locale": "pt-PT"
+          },
+          "lib/netstandard2.0/pt/Hangfire.Core.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/netstandard2.0/ru/Hangfire.Core.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/netstandard2.0/sv/Hangfire.Core.resources.dll": {
+            "locale": "sv"
+          },
+          "lib/netstandard2.0/tr-TR/Hangfire.Core.resources.dll": {
+            "locale": "tr-TR"
+          },
+          "lib/netstandard2.0/zh-TW/Hangfire.Core.resources.dll": {
+            "locale": "zh-TW"
+          },
+          "lib/netstandard2.0/zh/Hangfire.Core.resources.dll": {
+            "locale": "zh"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.4": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.4.30916"
+          }
+        }
+      },
+      "Nice3point.Revit.Extensions/2026.1.4": {
+        "runtime": {
+          "lib/net8.0-windows7.0/Nice3point.Revit.Extensions.dll": {
+            "assemblyVersion": "2026.1.4.0",
+            "fileVersion": "2026.1.4.0"
+          }
+        }
+      },
+      "Nice3point.Revit.Toolkit/2026.1.0": {
+        "runtime": {
+          "lib/net8.0-windows7.0/Nice3point.Revit.Toolkit.dll": {
+            "assemblyVersion": "2026.1.0.0",
+            "fileVersion": "2026.1.0.0"
+          }
+        }
+      },
+      "RBush.Signed/4.0.0": {
+        "runtime": {
+          "lib/net8.0/RBush.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "Serilog/4.0.0": {
+        "runtime": {
+          "lib/net8.0/Serilog.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "Serilog.Sinks.Autodesk.Revit/2.0.1": {
+        "dependencies": {
+          "Serilog": "4.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/Serilog.Sinks.Autodesk.Revit.dll": {
+            "assemblyVersion": "2.0.1.0",
+            "fileVersion": "2.0.1.0"
+          }
+        }
+      },
+      "Serilog.Sinks.Console/6.1.1": {
+        "dependencies": {
+          "Serilog": "4.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/Serilog.Sinks.Console.dll": {
+            "assemblyVersion": "6.1.1.0",
+            "fileVersion": "6.1.1.0"
+          }
+        }
+      },
+      "Serilog.Sinks.Debug/3.0.0": {
+        "dependencies": {
+          "Serilog": "4.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/Serilog.Sinks.Debug.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "SixLabors.Fonts/1.0.0": {
+        "runtime": {
+          "lib/netcoreapp3.1/SixLabors.Fonts.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "System.IO.Packaging/8.0.1": {
+        "runtime": {
+          "lib/net8.0/System.IO.Packaging.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.1024.46610"
+          }
+        }
+      },
+      "System.Management/8.0.0": {
+        "runtime": {
+          "lib/net8.0/System.Management.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net8.0/System.Management.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "AlternateRebar/4.1.5": {
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.2",
+          "Frata.Library": "2026.1.29",
+          "Frata.Library.UI": "1.1.1",
+          "Newtonsoft.Json": "13.0.4",
+          "Nice3point.Revit.Extensions": "2026.1.4",
+          "Nice3point.Revit.Toolkit": "2026.1.0",
+          "Serilog.Sinks.Autodesk.Revit": "2.0.1",
+          "Serilog.Sinks.Console": "6.1.1",
+          "Serilog.Sinks.Debug": "3.0.0",
+          "System.Management": "8.0.0"
+        },
+        "runtime": {
+          "AlternateRebar.dll": {
+            "assemblyVersion": "4.1.5.0",
+            "fileVersion": "4.1.5.0"
+          }
+        },
+        "resources": {
+          "de-DE/AlternateRebar.resources.dll": {
+            "locale": "de-DE"
+          },
+          "es-ES/AlternateRebar.resources.dll": {
+            "locale": "es-ES"
+          },
+          "fr-FR/AlternateRebar.resources.dll": {
+            "locale": "fr-FR"
+          },
+          "it-IT/AlternateRebar.resources.dll": {
+            "locale": "it-IT"
+          },
+          "pt-BR/AlternateRebar.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "ru-RU/AlternateRebar.resources.dll": {
+            "locale": "ru-RU"
+          },
+          "zh-CN/AlternateRebar.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "Architecture/4.1.5": {
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.2",
+          "Frata.Library": "2026.1.29",
+          "Frata.Library.UI": "1.1.1",
+          "Newtonsoft.Json": "13.0.4",
+          "Nice3point.Revit.Extensions": "2026.1.4",
+          "Nice3point.Revit.Toolkit": "2026.1.0",
+          "RoomToFloor": "4.1.5",
+          "Serilog.Sinks.Autodesk.Revit": "2.0.1",
+          "Serilog.Sinks.Console": "6.1.1",
+          "Serilog.Sinks.Debug": "3.0.0",
+          "System.Management": "8.0.0"
+        },
+        "runtime": {
+          "Architecture.dll": {
+            "fileVersion": "0.0.0.0"
+          }
+        },
+        "resources": {
+          "de-DE/Architecture.resources.dll": {
+            "locale": "de-DE"
+          },
+          "es-ES/Architecture.resources.dll": {
+            "locale": "es-ES"
+          },
+          "fr-FR/Architecture.resources.dll": {
+            "locale": "fr-FR"
+          },
+          "it-IT/Architecture.resources.dll": {
+            "locale": "it-IT"
+          },
+          "pt-BR/Architecture.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "ru-RU/Architecture.resources.dll": {
+            "locale": "ru-RU"
+          },
+          "zh-CN/Architecture.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "AutoStirrups/4.1.5": {
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.2",
+          "Frata.Library": "2026.1.29",
+          "Frata.Library.UI": "1.1.1",
+          "Newtonsoft.Json": "13.0.4",
+          "Nice3point.Revit.Extensions": "2026.1.4",
+          "Nice3point.Revit.Toolkit": "2026.1.0",
+          "Serilog.Sinks.Autodesk.Revit": "2.0.1",
+          "Serilog.Sinks.Console": "6.1.1",
+          "Serilog.Sinks.Debug": "3.0.0",
+          "System.Management": "8.0.0"
+        },
+        "runtime": {
+          "AutoStirrups.dll": {
+            "assemblyVersion": "4.1.5.0",
+            "fileVersion": "4.1.5.0"
+          }
+        },
+        "resources": {
+          "de-DE/AutoStirrups.resources.dll": {
+            "locale": "de-DE"
+          },
+          "es-Es/AutoStirrups.resources.dll": {
+            "locale": "es-Es"
+          },
+          "fr-FR/AutoStirrups.resources.dll": {
+            "locale": "fr-FR"
+          },
+          "it-IT/AutoStirrups.resources.dll": {
+            "locale": "it-IT"
+          },
+          "pt-BR/AutoStirrups.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "ru-RU/AutoStirrups.resources.dll": {
+            "locale": "ru-RU"
+          },
+          "zh-CN/AutoStirrups.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "BimSyntax/4.1.5": {
+        "dependencies": {
+          "ClosedXML": "0.105.1",
+          "CommunityToolkit.Mvvm": "8.4.2",
+          "Frata.Library": "2026.1.29",
+          "Frata.Library.UI": "1.1.1",
+          "Newtonsoft.Json": "13.0.4",
+          "Nice3point.Revit.Extensions": "2026.1.4",
+          "Nice3point.Revit.Toolkit": "2026.1.0",
+          "Serilog.Sinks.Autodesk.Revit": "2.0.1",
+          "Serilog.Sinks.Console": "6.1.1",
+          "Serilog.Sinks.Debug": "3.0.0",
+          "System.Management": "8.0.0"
+        },
+        "runtime": {
+          "BimSyntax.dll": {
+            "assemblyVersion": "4.1.5.0",
+            "fileVersion": "4.1.5.0"
+          }
+        },
+        "resources": {
+          "de-DE/BimSyntax.resources.dll": {
+            "locale": "de-DE"
+          },
+          "es-ES/BimSyntax.resources.dll": {
+            "locale": "es-ES"
+          },
+          "fr-FR/BimSyntax.resources.dll": {
+            "locale": "fr-FR"
+          },
+          "it-IT/BimSyntax.resources.dll": {
+            "locale": "it-IT"
+          },
+          "pt-BR/BimSyntax.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "ru-RU/BimSyntax.resources.dll": {
+            "locale": "ru-RU"
+          },
+          "zh-CN/BimSyntax.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "CheckRebar/4.1.5": {
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.2",
+          "Frata.Library": "2026.1.29",
+          "Frata.Library.UI": "1.1.1",
+          "Newtonsoft.Json": "13.0.4",
+          "Nice3point.Revit.Extensions": "2026.1.4",
+          "Nice3point.Revit.Toolkit": "2026.1.0",
+          "Serilog.Sinks.Autodesk.Revit": "2.0.1",
+          "Serilog.Sinks.Console": "6.1.1",
+          "Serilog.Sinks.Debug": "3.0.0",
+          "System.Management": "8.0.0"
+        },
+        "runtime": {
+          "CheckRebar.dll": {
+            "assemblyVersion": "4.1.5.0",
+            "fileVersion": "4.1.5.0"
+          }
+        },
+        "resources": {
+          "de-DE/CheckRebar.resources.dll": {
+            "locale": "de-DE"
+          },
+          "es-ES/CheckRebar.resources.dll": {
+            "locale": "es-ES"
+          },
+          "fr-FR/CheckRebar.resources.dll": {
+            "locale": "fr-FR"
+          },
+          "it-IT/CheckRebar.resources.dll": {
+            "locale": "it-IT"
+          },
+          "pt-BR/CheckRebar.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "ru-RU/CheckRebar.resources.dll": {
+            "locale": "ru-RU"
+          },
+          "zh-CN/CheckRebar.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "ColumnAligner/4.1.5": {
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.2",
+          "Frata.Library": "2026.1.29",
+          "Frata.Library.UI": "1.1.1",
+          "Newtonsoft.Json": "13.0.4",
+          "Nice3point.Revit.Extensions": "2026.1.4",
+          "Nice3point.Revit.Toolkit": "2026.1.0",
+          "Serilog.Sinks.Autodesk.Revit": "2.0.1",
+          "Serilog.Sinks.Console": "6.1.1",
+          "Serilog.Sinks.Debug": "3.0.0",
+          "System.Management": "8.0.0"
+        },
+        "runtime": {
+          "ColumnAligner.dll": {
+            "assemblyVersion": "4.1.5.0",
+            "fileVersion": "4.1.5.0"
+          }
+        },
+        "resources": {
+          "de-DE/ColumnAligner.resources.dll": {
+            "locale": "de-DE"
+          },
+          "es-Es/ColumnAligner.resources.dll": {
+            "locale": "es-Es"
+          },
+          "fr-FR/ColumnAligner.resources.dll": {
+            "locale": "fr-FR"
+          },
+          "it-IT/ColumnAligner.resources.dll": {
+            "locale": "it-IT"
+          },
+          "pt-BR/ColumnAligner.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "ru-RU/ColumnAligner.resources.dll": {
+            "locale": "ru-RU"
+          },
+          "zh-CN/ColumnAligner.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "DataExplorer/4.1.5": {
+        "dependencies": {
+          "ClosedXML": "0.105.1",
+          "CommunityToolkit.Mvvm": "8.4.2",
+          "Frata.Library": "2026.1.29",
+          "Frata.Library.UI": "1.1.1",
+          "Newtonsoft.Json": "13.0.4",
+          "Nice3point.Revit.Extensions": "2026.1.4",
+          "Nice3point.Revit.Toolkit": "2026.1.0",
+          "Serilog.Sinks.Autodesk.Revit": "2.0.1",
+          "Serilog.Sinks.Console": "6.1.1",
+          "Serilog.Sinks.Debug": "3.0.0",
+          "System.Management": "8.0.0"
+        },
+        "runtime": {
+          "DataExplorer.dll": {
+            "assemblyVersion": "4.1.5.0",
+            "fileVersion": "4.1.5.0"
+          }
+        },
+        "resources": {
+          "de-DE/DataExplorer.resources.dll": {
+            "locale": "de-DE"
+          },
+          "es-ES/DataExplorer.resources.dll": {
+            "locale": "es-ES"
+          },
+          "fr-FR/DataExplorer.resources.dll": {
+            "locale": "fr-FR"
+          },
+          "it-IT/DataExplorer.resources.dll": {
+            "locale": "it-IT"
+          },
+          "pt-BR/DataExplorer.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "ru-RU/DataExplorer.resources.dll": {
+            "locale": "ru-RU"
+          },
+          "zh-CN/DataExplorer.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "DeleteSystem/4.1.5": {
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.2",
+          "Frata.Library": "2026.1.29",
+          "Frata.Library.UI": "1.1.1",
+          "Newtonsoft.Json": "13.0.4",
+          "Nice3point.Revit.Extensions": "2026.1.4",
+          "Nice3point.Revit.Toolkit": "2026.1.0",
+          "Serilog.Sinks.Autodesk.Revit": "2.0.1",
+          "Serilog.Sinks.Console": "6.1.1",
+          "Serilog.Sinks.Debug": "3.0.0",
+          "System.Management": "8.0.0"
+        },
+        "runtime": {
+          "DeleteSystem.dll": {
+            "assemblyVersion": "4.1.5.0",
+            "fileVersion": "4.1.5.0"
+          }
+        },
+        "resources": {
+          "de-DE/DeleteSystem.resources.dll": {
+            "locale": "de-DE"
+          },
+          "es-ES/DeleteSystem.resources.dll": {
+            "locale": "es-ES"
+          },
+          "fr-FR/DeleteSystem.resources.dll": {
+            "locale": "fr-FR"
+          },
+          "it-IT/DeleteSystem.resources.dll": {
+            "locale": "it-IT"
+          },
+          "pt-BR/DeleteSystem.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "ru-RU/DeleteSystem.resources.dll": {
+            "locale": "ru-RU"
+          },
+          "zh-CN/DeleteSystem.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "Disconnet/4.1.5": {
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.2",
+          "Frata.Library": "2026.1.29",
+          "Frata.Library.UI": "1.1.1",
+          "Newtonsoft.Json": "13.0.4",
+          "Nice3point.Revit.Extensions": "2026.1.4",
+          "Nice3point.Revit.Toolkit": "2026.1.0",
+          "Serilog.Sinks.Autodesk.Revit": "2.0.1",
+          "Serilog.Sinks.Console": "6.1.1",
+          "Serilog.Sinks.Debug": "3.0.0",
+          "System.Management": "8.0.0"
+        },
+        "runtime": {
+          "Disconnet.dll": {
+            "assemblyVersion": "4.1.5.0",
+            "fileVersion": "4.1.5.0"
+          }
+        },
+        "resources": {
+          "de-DE/Disconnet.resources.dll": {
+            "locale": "de-DE"
+          },
+          "es-ES/Disconnet.resources.dll": {
+            "locale": "es-ES"
+          },
+          "fr-FR/Disconnet.resources.dll": {
+            "locale": "fr-FR"
+          },
+          "it-IT/Disconnet.resources.dll": {
+            "locale": "it-IT"
+          },
+          "pt-BR/Disconnet.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "ru-RU/Disconnet.resources.dll": {
+            "locale": "ru-RU"
+          },
+          "zh-CN/Disconnet.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "DivideRebar/4.1.5": {
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.2",
+          "Frata.Library": "2026.1.29",
+          "Frata.Library.UI": "1.1.1",
+          "Newtonsoft.Json": "13.0.4",
+          "Nice3point.Revit.Extensions": "2026.1.4",
+          "Nice3point.Revit.Toolkit": "2026.1.0",
+          "Serilog.Sinks.Autodesk.Revit": "2.0.1",
+          "Serilog.Sinks.Console": "6.1.1",
+          "Serilog.Sinks.Debug": "3.0.0",
+          "System.Management": "8.0.0"
+        },
+        "runtime": {
+          "DivideRebar.dll": {
+            "assemblyVersion": "4.1.5.0",
+            "fileVersion": "4.1.5.0"
+          }
+        },
+        "resources": {
+          "de-DE/DivideRebar.resources.dll": {
+            "locale": "de-DE"
+          },
+          "es-ES/DivideRebar.resources.dll": {
+            "locale": "es-ES"
+          },
+          "fr-FR/DivideRebar.resources.dll": {
+            "locale": "fr-FR"
+          },
+          "it-IT/DivideRebar.resources.dll": {
+            "locale": "it-IT"
+          },
+          "pt-BR/DivideRebar.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "ru-RU/DivideRebar.resources.dll": {
+            "locale": "ru-RU"
+          },
+          "zh-CN/DivideRebar.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "Drawing2D/4.1.5": {
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.2",
+          "FootingAnnotation": "4.1.5",
+          "Frata.Library": "2026.1.29",
+          "Frata.Library.UI": "1.1.1",
+          "Newtonsoft.Json": "13.0.4",
+          "Nice3point.Revit.Extensions": "2026.1.4",
+          "Nice3point.Revit.Toolkit": "2026.1.0",
+          "Serilog.Sinks.Autodesk.Revit": "2.0.1",
+          "Serilog.Sinks.Console": "6.1.1",
+          "Serilog.Sinks.Debug": "3.0.0",
+          "System.Management": "8.0.0"
+        },
+        "runtime": {
+          "Drawing2D.dll": {
+            "fileVersion": "0.0.0.0"
+          }
+        },
+        "resources": {
+          "de-DE/Drawing2D.resources.dll": {
+            "locale": "de-DE"
+          },
+          "es-ES/Drawing2D.resources.dll": {
+            "locale": "es-ES"
+          },
+          "fr-FR/Drawing2D.resources.dll": {
+            "locale": "fr-FR"
+          },
+          "it-IT/Drawing2D.resources.dll": {
+            "locale": "it-IT"
+          },
+          "pt-BR/Drawing2D.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "ru-RU/Drawing2D.resources.dll": {
+            "locale": "ru-RU"
+          },
+          "zh-CN/Drawing2D.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "ElbowCreator/4.1.5": {
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.2",
+          "Frata.Library": "2026.1.29",
+          "Frata.Library.UI": "1.1.1",
+          "Newtonsoft.Json": "13.0.4",
+          "Nice3point.Revit.Extensions": "2026.1.4",
+          "Nice3point.Revit.Toolkit": "2026.1.0",
+          "Serilog.Sinks.Autodesk.Revit": "2.0.1",
+          "Serilog.Sinks.Console": "6.1.1",
+          "Serilog.Sinks.Debug": "3.0.0",
+          "System.Management": "8.0.0"
+        },
+        "runtime": {
+          "ElbowCreator.dll": {
+            "assemblyVersion": "4.1.5.0",
+            "fileVersion": "4.1.5.0"
+          }
+        },
+        "resources": {
+          "de-DE/ElbowCreator.resources.dll": {
+            "locale": "de-DE"
+          },
+          "es-ES/ElbowCreator.resources.dll": {
+            "locale": "es-ES"
+          },
+          "fr-FR/ElbowCreator.resources.dll": {
+            "locale": "fr-FR"
+          },
+          "it-IT/ElbowCreator.resources.dll": {
+            "locale": "it-IT"
+          },
+          "pt-BR/ElbowCreator.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "ru-RU/ElbowCreator.resources.dll": {
+            "locale": "ru-RU"
+          },
+          "zh-CN/ElbowCreator.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "Exportify/4.1.5": {
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.2",
+          "Frata.Library": "2026.1.29",
+          "Frata.Library.UI": "1.1.1",
+          "Newtonsoft.Json": "13.0.4",
+          "Nice3point.Revit.Extensions": "2026.1.4",
+          "Nice3point.Revit.Toolkit": "2026.1.0",
+          "Serilog.Sinks.Autodesk.Revit": "2.0.1",
+          "Serilog.Sinks.Console": "6.1.1",
+          "Serilog.Sinks.Debug": "3.0.0",
+          "System.Management": "8.0.0"
+        },
+        "runtime": {
+          "Exportify.dll": {
+            "assemblyVersion": "4.1.5.0",
+            "fileVersion": "4.1.5.0"
+          }
+        },
+        "resources": {
+          "de-DE/Exportify.resources.dll": {
+            "locale": "de-DE"
+          },
+          "es-ES/Exportify.resources.dll": {
+            "locale": "es-ES"
+          },
+          "fr-FR/Exportify.resources.dll": {
+            "locale": "fr-FR"
+          },
+          "it-IT/Exportify.resources.dll": {
+            "locale": "it-IT"
+          },
+          "pt-BR/Exportify.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "ru-RU/Exportify.resources.dll": {
+            "locale": "ru-RU"
+          },
+          "zh-CN/Exportify.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "ExtendRebar/4.1.5": {
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.2",
+          "Frata.Library": "2026.1.29",
+          "Frata.Library.UI": "1.1.1",
+          "Newtonsoft.Json": "13.0.4",
+          "Nice3point.Revit.Extensions": "2026.1.4",
+          "Nice3point.Revit.Toolkit": "2026.1.0",
+          "Serilog.Sinks.Autodesk.Revit": "2.0.1",
+          "Serilog.Sinks.Console": "6.1.1",
+          "Serilog.Sinks.Debug": "3.0.0",
+          "System.Management": "8.0.0"
+        },
+        "runtime": {
+          "ExtendRebar.dll": {
+            "assemblyVersion": "4.1.5.0",
+            "fileVersion": "4.1.5.0"
+          }
+        },
+        "resources": {
+          "de-DE/ExtendRebar.resources.dll": {
+            "locale": "de-DE"
+          },
+          "es-ES/ExtendRebar.resources.dll": {
+            "locale": "es-ES"
+          },
+          "fr-FR/ExtendRebar.resources.dll": {
+            "locale": "fr-FR"
+          },
+          "it-IT/ExtendRebar.resources.dll": {
+            "locale": "it-IT"
+          },
+          "pt-BR/ExtendRebar.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "ru-RU/ExtendRebar.resources.dll": {
+            "locale": "ru-RU"
+          },
+          "zh-CN/ExtendRebar.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "FittingExtender/4.1.5": {
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.2",
+          "Frata.Library": "2026.1.29",
+          "Frata.Library.UI": "1.1.1",
+          "Newtonsoft.Json": "13.0.4",
+          "Nice3point.Revit.Extensions": "2026.1.4",
+          "Nice3point.Revit.Toolkit": "2026.1.0",
+          "Serilog.Sinks.Autodesk.Revit": "2.0.1",
+          "Serilog.Sinks.Console": "6.1.1",
+          "Serilog.Sinks.Debug": "3.0.0",
+          "System.Management": "8.0.0"
+        },
+        "runtime": {
+          "FittingExtender.dll": {
+            "assemblyVersion": "4.1.5.0",
+            "fileVersion": "4.1.5.0"
+          }
+        },
+        "resources": {
+          "de-DE/FittingExtender.resources.dll": {
+            "locale": "de-DE"
+          },
+          "es-ES/FittingExtender.resources.dll": {
+            "locale": "es-ES"
+          },
+          "fr-FR/FittingExtender.resources.dll": {
+            "locale": "fr-FR"
+          },
+          "it-IT/FittingExtender.resources.dll": {
+            "locale": "it-IT"
+          },
+          "pt-BR/FittingExtender.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "ru-RU/FittingExtender.resources.dll": {
+            "locale": "ru-RU"
+          },
+          "zh-CN/FittingExtender.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "FootingAnnotation/4.1.5": {
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.2",
+          "Frata.Library": "2026.1.29",
+          "Frata.Library.UI": "1.1.1",
+          "Newtonsoft.Json": "13.0.4",
+          "Nice3point.Revit.Extensions": "2026.1.4",
+          "Nice3point.Revit.Toolkit": "2026.1.0",
+          "Serilog.Sinks.Autodesk.Revit": "2.0.1",
+          "Serilog.Sinks.Console": "6.1.1",
+          "Serilog.Sinks.Debug": "3.0.0",
+          "System.Management": "8.0.0"
+        },
+        "runtime": {
+          "FootingAnnotation.dll": {
+            "assemblyVersion": "4.1.5.0",
+            "fileVersion": "4.1.5.0"
+          }
+        },
+        "resources": {
+          "de-DE/FootingAnnotation.resources.dll": {
+            "locale": "de-DE"
+          },
+          "es-ES/FootingAnnotation.resources.dll": {
+            "locale": "es-ES"
+          },
+          "fr-FR/FootingAnnotation.resources.dll": {
+            "locale": "fr-FR"
+          },
+          "it-IT/FootingAnnotation.resources.dll": {
+            "locale": "it-IT"
+          },
+          "pt-BR/FootingAnnotation.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "ru-RU/FootingAnnotation.resources.dll": {
+            "locale": "ru-RU"
+          },
+          "zh-CN/FootingAnnotation.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "FootingRebar/4.1.5": {
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.2",
+          "Frata.Library": "2026.1.29",
+          "Frata.Library.UI": "1.1.1",
+          "Newtonsoft.Json": "13.0.4",
+          "Nice3point.Revit.Extensions": "2026.1.4",
+          "Nice3point.Revit.Toolkit": "2026.1.0",
+          "Serilog.Sinks.Autodesk.Revit": "2.0.1",
+          "Serilog.Sinks.Console": "6.1.1",
+          "Serilog.Sinks.Debug": "3.0.0",
+          "System.Management": "8.0.0"
+        },
+        "runtime": {
+          "FootingRebar.dll": {
+            "assemblyVersion": "4.1.5.0",
+            "fileVersion": "4.1.5.0"
+          }
+        },
+        "resources": {
+          "de-DE/FootingRebar.resources.dll": {
+            "locale": "de-DE"
+          },
+          "es-Es/FootingRebar.resources.dll": {
+            "locale": "es-Es"
+          },
+          "fr-FR/FootingRebar.resources.dll": {
+            "locale": "fr-FR"
+          },
+          "it-IT/FootingRebar.resources.dll": {
+            "locale": "it-IT"
+          },
+          "pt-BR/FootingRebar.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "ru-RU/FootingRebar.resources.dll": {
+            "locale": "ru-RU"
+          },
+          "zh-CN/FootingRebar.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "FreezeElements/4.1.5": {
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.2",
+          "Frata.Library": "2026.1.29",
+          "Frata.Library.UI": "1.1.1",
+          "Newtonsoft.Json": "13.0.4",
+          "Nice3point.Revit.Extensions": "2026.1.4",
+          "Nice3point.Revit.Toolkit": "2026.1.0",
+          "Serilog.Sinks.Autodesk.Revit": "2.0.1",
+          "Serilog.Sinks.Console": "6.1.1",
+          "Serilog.Sinks.Debug": "3.0.0",
+          "System.Management": "8.0.0"
+        },
+        "runtime": {
+          "FreezeElements.dll": {
+            "assemblyVersion": "4.1.5.0",
+            "fileVersion": "4.1.5.0"
+          }
+        },
+        "resources": {
+          "de-DE/FreezeElements.resources.dll": {
+            "locale": "de-DE"
+          },
+          "es-ES/FreezeElements.resources.dll": {
+            "locale": "es-ES"
+          },
+          "fr-FR/FreezeElements.resources.dll": {
+            "locale": "fr-FR"
+          },
+          "it-IT/FreezeElements.resources.dll": {
+            "locale": "it-IT"
+          },
+          "pt-BR/FreezeElements.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "ru-RU/FreezeElements.resources.dll": {
+            "locale": "ru-RU"
+          },
+          "zh-CN/FreezeElements.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "GridAssigner/4.1.5": {
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.2",
+          "Frata.Library": "2026.1.29",
+          "Frata.Library.UI": "1.1.1",
+          "Newtonsoft.Json": "13.0.4",
+          "Nice3point.Revit.Extensions": "2026.1.4",
+          "Nice3point.Revit.Toolkit": "2026.1.0",
+          "Options": "4.1.5",
+          "Serilog.Sinks.Autodesk.Revit": "2.0.1",
+          "Serilog.Sinks.Console": "6.1.1",
+          "Serilog.Sinks.Debug": "3.0.0",
+          "System.Management": "8.0.0"
+        },
+        "runtime": {
+          "GridAssigner.dll": {
+            "assemblyVersion": "4.1.5.0",
+            "fileVersion": "4.1.5.0"
+          }
+        },
+        "resources": {
+          "de-DE/GridAssigner.resources.dll": {
+            "locale": "de-DE"
+          },
+          "es-ES/GridAssigner.resources.dll": {
+            "locale": "es-ES"
+          },
+          "fr-FR/GridAssigner.resources.dll": {
+            "locale": "fr-FR"
+          },
+          "it-IT/GridAssigner.resources.dll": {
+            "locale": "it-IT"
+          },
+          "pt-BR/GridAssigner.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "ru-RU/GridAssigner.resources.dll": {
+            "locale": "ru-RU"
+          },
+          "zh-CN/GridAssigner.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "GroupRebar/4.1.5": {
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.2",
+          "Frata.Library": "2026.1.29",
+          "Frata.Library.UI": "1.1.1",
+          "Newtonsoft.Json": "13.0.4",
+          "Nice3point.Revit.Extensions": "2026.1.4",
+          "Nice3point.Revit.Toolkit": "2026.1.0",
+          "Serilog.Sinks.Autodesk.Revit": "2.0.1",
+          "Serilog.Sinks.Console": "6.1.1",
+          "Serilog.Sinks.Debug": "3.0.0",
+          "System.Management": "8.0.0"
+        },
+        "runtime": {
+          "GroupRebar.dll": {
+            "assemblyVersion": "4.1.5.0",
+            "fileVersion": "4.1.5.0"
+          }
+        },
+        "resources": {
+          "de-DE/GroupRebar.resources.dll": {
+            "locale": "de-DE"
+          },
+          "es-ES/GroupRebar.resources.dll": {
+            "locale": "es-ES"
+          },
+          "fr-FR/GroupRebar.resources.dll": {
+            "locale": "fr-FR"
+          },
+          "it-IT/GroupRebar.resources.dll": {
+            "locale": "it-IT"
+          },
+          "pt-BR/GroupRebar.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "ru-RU/GroupRebar.resources.dll": {
+            "locale": "ru-RU"
+          },
+          "zh-CN/GroupRebar.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "HostSync/4.1.5": {
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.2",
+          "Frata.Library": "2026.1.29",
+          "Frata.Library.UI": "1.1.1",
+          "Newtonsoft.Json": "13.0.4",
+          "Nice3point.Revit.Extensions": "2026.1.4",
+          "Nice3point.Revit.Toolkit": "2026.1.0",
+          "Serilog.Sinks.Autodesk.Revit": "2.0.1",
+          "Serilog.Sinks.Console": "6.1.1",
+          "Serilog.Sinks.Debug": "3.0.0",
+          "System.Management": "8.0.0"
+        },
+        "runtime": {
+          "HostSync.dll": {
+            "assemblyVersion": "4.1.5.0",
+            "fileVersion": "4.1.5.0"
+          }
+        },
+        "resources": {
+          "de-DE/HostSync.resources.dll": {
+            "locale": "de-DE"
+          },
+          "es-Es/HostSync.resources.dll": {
+            "locale": "es-Es"
+          },
+          "fr-FR/HostSync.resources.dll": {
+            "locale": "fr-FR"
+          },
+          "it-IT/HostSync.resources.dll": {
+            "locale": "it-IT"
+          },
+          "pt-BR/HostSync.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "ru-RU/HostSync.resources.dll": {
+            "locale": "ru-RU"
+          },
+          "zh-CN/HostSync.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "IDWriter/4.1.5": {
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.2",
+          "Frata.Library": "2026.1.29",
+          "Frata.Library.UI": "1.1.1",
+          "Newtonsoft.Json": "13.0.4",
+          "Nice3point.Revit.Extensions": "2026.1.4",
+          "Nice3point.Revit.Toolkit": "2026.1.0",
+          "Serilog.Sinks.Autodesk.Revit": "2.0.1",
+          "Serilog.Sinks.Console": "6.1.1",
+          "Serilog.Sinks.Debug": "3.0.0",
+          "System.Management": "8.0.0"
+        },
+        "runtime": {
+          "IDWriter.dll": {
+            "assemblyVersion": "4.1.5.0",
+            "fileVersion": "4.1.5.0"
+          }
+        },
+        "resources": {
+          "de-DE/IDWriter.resources.dll": {
+            "locale": "de-DE"
+          },
+          "es-ES/IDWriter.resources.dll": {
+            "locale": "es-ES"
+          },
+          "fr-FR/IDWriter.resources.dll": {
+            "locale": "fr-FR"
+          },
+          "it-IT/IDWriter.resources.dll": {
+            "locale": "it-IT"
+          },
+          "pt-BR/IDWriter.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "ru-RU/IDWriter.resources.dll": {
+            "locale": "ru-RU"
+          },
+          "zh-CN/IDWriter.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "JoinRebar/4.1.5": {
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.2",
+          "Frata.Library": "2026.1.29",
+          "Frata.Library.UI": "1.1.1",
+          "Newtonsoft.Json": "13.0.4",
+          "Nice3point.Revit.Extensions": "2026.1.4",
+          "Nice3point.Revit.Toolkit": "2026.1.0",
+          "Serilog.Sinks.Autodesk.Revit": "2.0.1",
+          "Serilog.Sinks.Console": "6.1.1",
+          "Serilog.Sinks.Debug": "3.0.0",
+          "System.Management": "8.0.0"
+        },
+        "runtime": {
+          "JoinRebar.dll": {
+            "assemblyVersion": "4.1.5.0",
+            "fileVersion": "4.1.5.0"
+          }
+        },
+        "resources": {
+          "de-DE/JoinRebar.resources.dll": {
+            "locale": "de-DE"
+          },
+          "es-ES/JoinRebar.resources.dll": {
+            "locale": "es-ES"
+          },
+          "fr-FR/JoinRebar.resources.dll": {
+            "locale": "fr-FR"
+          },
+          "it-IT/JoinRebar.resources.dll": {
+            "locale": "it-IT"
+          },
+          "pt-BR/JoinRebar.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "ru-RU/JoinRebar.resources.dll": {
+            "locale": "ru-RU"
+          },
+          "zh-CN/JoinRebar.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "LevelMapper/4.1.5": {
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.2",
+          "Frata.Library": "2026.1.29",
+          "Frata.Library.UI": "1.1.1",
+          "Newtonsoft.Json": "13.0.4",
+          "Nice3point.Revit.Extensions": "2026.1.4",
+          "Nice3point.Revit.Toolkit": "2026.1.0",
+          "Serilog.Sinks.Autodesk.Revit": "2.0.1",
+          "Serilog.Sinks.Console": "6.1.1",
+          "Serilog.Sinks.Debug": "3.0.0",
+          "System.Management": "8.0.0"
+        },
+        "runtime": {
+          "LevelMapper.dll": {
+            "assemblyVersion": "4.1.5.0",
+            "fileVersion": "4.1.5.0"
+          }
+        },
+        "resources": {
+          "de-DE/LevelMapper.resources.dll": {
+            "locale": "de-DE"
+          },
+          "es-ES/LevelMapper.resources.dll": {
+            "locale": "es-ES"
+          },
+          "fr-FR/LevelMapper.resources.dll": {
+            "locale": "fr-FR"
+          },
+          "it-IT/LevelMapper.resources.dll": {
+            "locale": "it-IT"
+          },
+          "pt-BR/LevelMapper.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "ru-RU/LevelMapper.resources.dll": {
+            "locale": "ru-RU"
+          },
+          "zh-CN/LevelMapper.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "Manage/4.1.5": {
+        "dependencies": {
+          "BimSyntax": "4.1.5",
+          "CommunityToolkit.Mvvm": "8.4.2",
+          "Exportify": "4.1.5",
+          "Frata.Library": "2026.1.29",
+          "Frata.Library.UI": "1.1.1",
+          "FreezeElements": "4.1.5",
+          "GridAssigner": "4.1.5",
+          "IDWriter": "4.1.5",
+          "LevelMapper": "4.1.5",
+          "Newtonsoft.Json": "13.0.4",
+          "Nice3point.Revit.Extensions": "2026.1.4",
+          "Nice3point.Revit.Toolkit": "2026.1.0",
+          "Options": "4.1.5",
+          "ParameterCatalog": "4.1.5",
+          "ScheduleExporter": "4.1.5",
+          "Serilog.Sinks.Autodesk.Revit": "2.0.1",
+          "Serilog.Sinks.Console": "6.1.1",
+          "Serilog.Sinks.Debug": "3.0.0",
+          "SuperMatch": "4.1.5",
+          "System.Management": "8.0.0",
+          "TransferParameters": "4.1.5",
+          "ViewTransfer": "4.1.5"
+        },
+        "runtime": {
+          "Manage.dll": {
+            "fileVersion": "0.0.0.0"
+          }
+        },
+        "resources": {
+          "de-DE/Manage.resources.dll": {
+            "locale": "de-DE"
+          },
+          "es-ES/Manage.resources.dll": {
+            "locale": "es-ES"
+          },
+          "fr-FR/Manage.resources.dll": {
+            "locale": "fr-FR"
+          },
+          "it-IT/Manage.resources.dll": {
+            "locale": "it-IT"
+          },
+          "pt-BR/Manage.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "ru-RU/Manage.resources.dll": {
+            "locale": "ru-RU"
+          },
+          "zh-CN/Manage.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "MEP/4.1.5": {
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.2",
+          "DeleteSystem": "4.1.5",
+          "Disconnet": "4.1.5",
+          "ElbowCreator": "4.1.5",
+          "FittingExtender": "4.1.5",
+          "Frata.Library": "2026.1.29",
+          "Frata.Library.UI": "1.1.1",
+          "MoveConnect": "4.1.5",
+          "Newtonsoft.Json": "13.0.4",
+          "Nice3point.Revit.Extensions": "2026.1.4",
+          "Nice3point.Revit.Toolkit": "2026.1.0",
+          "PipeAligner": "4.1.5",
+          "PipeSloper": "4.1.5",
+          "Serilog.Sinks.Autodesk.Revit": "2.0.1",
+          "Serilog.Sinks.Console": "6.1.1",
+          "Serilog.Sinks.Debug": "3.0.0",
+          "System.Management": "8.0.0"
+        },
+        "runtime": {
+          "MEP.dll": {
+            "fileVersion": "0.0.0.0"
+          }
+        },
+        "resources": {
+          "de-DE/MEP.resources.dll": {
+            "locale": "de-DE"
+          },
+          "es-ES/MEP.resources.dll": {
+            "locale": "es-ES"
+          },
+          "fr-FR/MEP.resources.dll": {
+            "locale": "fr-FR"
+          },
+          "it-IT/MEP.resources.dll": {
+            "locale": "it-IT"
+          },
+          "pt-BR/MEP.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "ru-RU/MEP.resources.dll": {
+            "locale": "ru-RU"
+          },
+          "zh-CN/MEP.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "MoveConnect/4.1.5": {
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.2",
+          "Frata.Library": "2026.1.29",
+          "Frata.Library.UI": "1.1.1",
+          "Newtonsoft.Json": "13.0.4",
+          "Nice3point.Revit.Extensions": "2026.1.4",
+          "Nice3point.Revit.Toolkit": "2026.1.0",
+          "Serilog.Sinks.Autodesk.Revit": "2.0.1",
+          "Serilog.Sinks.Console": "6.1.1",
+          "Serilog.Sinks.Debug": "3.0.0",
+          "System.Management": "8.0.0"
+        },
+        "runtime": {
+          "MoveConnect.dll": {
+            "assemblyVersion": "4.1.5.0",
+            "fileVersion": "4.1.5.0"
+          }
+        },
+        "resources": {
+          "de-DE/MoveConnect.resources.dll": {
+            "locale": "de-DE"
+          },
+          "es-ES/MoveConnect.resources.dll": {
+            "locale": "es-ES"
+          },
+          "fr-FR/MoveConnect.resources.dll": {
+            "locale": "fr-FR"
+          },
+          "it-IT/MoveConnect.resources.dll": {
+            "locale": "it-IT"
+          },
+          "pt-BR/MoveConnect.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "ru-RU/MoveConnect.resources.dll": {
+            "locale": "ru-RU"
+          },
+          "zh-CN/MoveConnect.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "Navigate/4.1.5": {
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.2",
+          "DataExplorer": "4.1.5",
+          "Frata.Library": "2026.1.29",
+          "Frata.Library.UI": "1.1.1",
+          "Newtonsoft.Json": "13.0.4",
+          "Nice3point.Revit.Extensions": "2026.1.4",
+          "Nice3point.Revit.Toolkit": "2026.1.0",
+          "OpenModelFolder": "4.1.5",
+          "QuickSelect": "4.1.5",
+          "SearchView": "4.1.5",
+          "Serilog.Sinks.Autodesk.Revit": "2.0.1",
+          "Serilog.Sinks.Console": "6.1.1",
+          "Serilog.Sinks.Debug": "3.0.0",
+          "System.Management": "8.0.0"
+        },
+        "runtime": {
+          "Navigate.dll": {
+            "fileVersion": "0.0.0.0"
+          }
+        },
+        "resources": {
+          "de-DE/Navigate.resources.dll": {
+            "locale": "de-DE"
+          },
+          "es-ES/Navigate.resources.dll": {
+            "locale": "es-ES"
+          },
+          "fr-FR/Navigate.resources.dll": {
+            "locale": "fr-FR"
+          },
+          "it-IT/Navigate.resources.dll": {
+            "locale": "it-IT"
+          },
+          "pt-BR/Navigate.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "ru-RU/Navigate.resources.dll": {
+            "locale": "ru-RU"
+          },
+          "zh-CN/Navigate.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "OpenModelFolder/4.1.5": {
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.2",
+          "Frata.Library": "2026.1.29",
+          "Frata.Library.UI": "1.1.1",
+          "Newtonsoft.Json": "13.0.4",
+          "Nice3point.Revit.Extensions": "2026.1.4",
+          "Nice3point.Revit.Toolkit": "2026.1.0",
+          "Serilog.Sinks.Autodesk.Revit": "2.0.1",
+          "Serilog.Sinks.Console": "6.1.1",
+          "Serilog.Sinks.Debug": "3.0.0",
+          "System.Management": "8.0.0"
+        },
+        "runtime": {
+          "OpenModelFolder.dll": {
+            "assemblyVersion": "4.1.5.0",
+            "fileVersion": "4.1.5.0"
+          }
+        },
+        "resources": {
+          "de-DE/OpenModelFolder.resources.dll": {
+            "locale": "de-DE"
+          },
+          "es-ES/OpenModelFolder.resources.dll": {
+            "locale": "es-ES"
+          },
+          "fr-FR/OpenModelFolder.resources.dll": {
+            "locale": "fr-FR"
+          },
+          "it-IT/OpenModelFolder.resources.dll": {
+            "locale": "it-IT"
+          },
+          "pt-BR/OpenModelFolder.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "ru-RU/OpenModelFolder.resources.dll": {
+            "locale": "ru-RU"
+          },
+          "zh-CN/OpenModelFolder.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "Options/4.1.5": {
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.2",
+          "Frata.Library": "2026.1.29",
+          "Frata.Library.UI": "1.1.1",
+          "Newtonsoft.Json": "13.0.4",
+          "Nice3point.Revit.Extensions": "2026.1.4",
+          "Nice3point.Revit.Toolkit": "2026.1.0",
+          "Serilog.Sinks.Autodesk.Revit": "2.0.1",
+          "Serilog.Sinks.Console": "6.1.1",
+          "Serilog.Sinks.Debug": "3.0.0",
+          "System.Management": "8.0.0"
+        },
+        "runtime": {
+          "Options.dll": {
+            "assemblyVersion": "4.1.5.0",
+            "fileVersion": "4.1.5.0"
+          }
+        },
+        "resources": {
+          "de-DE/Options.resources.dll": {
+            "locale": "de-DE"
+          },
+          "es-ES/Options.resources.dll": {
+            "locale": "es-ES"
+          },
+          "fr-FR/Options.resources.dll": {
+            "locale": "fr-FR"
+          },
+          "it-IT/Options.resources.dll": {
+            "locale": "it-IT"
+          },
+          "pt-BR/Options.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "ru-RU/Options.resources.dll": {
+            "locale": "ru-RU"
+          },
+          "zh-CN/Options.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "ParameterCatalog/4.1.5": {
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.2",
+          "Frata.Library": "2026.1.29",
+          "Frata.Library.UI": "1.1.1",
+          "Newtonsoft.Json": "13.0.4",
+          "Nice3point.Revit.Extensions": "2026.1.4",
+          "Nice3point.Revit.Toolkit": "2026.1.0",
+          "Serilog.Sinks.Autodesk.Revit": "2.0.1",
+          "Serilog.Sinks.Console": "6.1.1",
+          "Serilog.Sinks.Debug": "3.0.0",
+          "System.Management": "8.0.0"
+        },
+        "runtime": {
+          "ParameterCatalog.dll": {
+            "assemblyVersion": "4.1.5.0",
+            "fileVersion": "4.1.5.0"
+          }
+        },
+        "resources": {
+          "de-DE/ParameterCatalog.resources.dll": {
+            "locale": "de-DE"
+          },
+          "es-ES/ParameterCatalog.resources.dll": {
+            "locale": "es-ES"
+          },
+          "fr-FR/ParameterCatalog.resources.dll": {
+            "locale": "fr-FR"
+          },
+          "it-IT/ParameterCatalog.resources.dll": {
+            "locale": "it-IT"
+          },
+          "pt-BR/ParameterCatalog.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "ru-RU/ParameterCatalog.resources.dll": {
+            "locale": "ru-RU"
+          },
+          "zh-CN/ParameterCatalog.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "PipeAligner/4.1.5": {
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.2",
+          "Frata.Library": "2026.1.29",
+          "Frata.Library.UI": "1.1.1",
+          "Newtonsoft.Json": "13.0.4",
+          "Nice3point.Revit.Extensions": "2026.1.4",
+          "Nice3point.Revit.Toolkit": "2026.1.0",
+          "Serilog.Sinks.Autodesk.Revit": "2.0.1",
+          "Serilog.Sinks.Console": "6.1.1",
+          "Serilog.Sinks.Debug": "3.0.0",
+          "System.Management": "8.0.0"
+        },
+        "runtime": {
+          "PipeAligner.dll": {
+            "assemblyVersion": "4.1.5.0",
+            "fileVersion": "4.1.5.0"
+          }
+        },
+        "resources": {
+          "de-DE/PipeAligner.resources.dll": {
+            "locale": "de-DE"
+          },
+          "es-ES/PipeAligner.resources.dll": {
+            "locale": "es-ES"
+          },
+          "fr-FR/PipeAligner.resources.dll": {
+            "locale": "fr-FR"
+          },
+          "it-IT/PipeAligner.resources.dll": {
+            "locale": "it-IT"
+          },
+          "pt-BR/PipeAligner.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "ru-RU/PipeAligner.resources.dll": {
+            "locale": "ru-RU"
+          },
+          "zh-CN/PipeAligner.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "PipeSloper/4.1.5": {
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.2",
+          "Frata.Library": "2026.1.29",
+          "Frata.Library.UI": "1.1.1",
+          "Newtonsoft.Json": "13.0.4",
+          "Nice3point.Revit.Extensions": "2026.1.4",
+          "Nice3point.Revit.Toolkit": "2026.1.0",
+          "Serilog.Sinks.Autodesk.Revit": "2.0.1",
+          "Serilog.Sinks.Console": "6.1.1",
+          "Serilog.Sinks.Debug": "3.0.0",
+          "System.Management": "8.0.0"
+        },
+        "runtime": {
+          "PipeSloper.dll": {
+            "assemblyVersion": "4.1.5.0",
+            "fileVersion": "4.1.5.0"
+          }
+        },
+        "resources": {
+          "de-DE/PipeSloper.resources.dll": {
+            "locale": "de-DE"
+          },
+          "es-ES/PipeSloper.resources.dll": {
+            "locale": "es-ES"
+          },
+          "fr-FR/PipeSloper.resources.dll": {
+            "locale": "fr-FR"
+          },
+          "it-IT/PipeSloper.resources.dll": {
+            "locale": "it-IT"
+          },
+          "pt-BR/PipeSloper.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "ru-RU/PipeSloper.resources.dll": {
+            "locale": "ru-RU"
+          },
+          "zh-CN/PipeSloper.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "QuickSelect/4.1.5": {
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.2",
+          "Frata.Library": "2026.1.29",
+          "Frata.Library.UI": "1.1.1",
+          "Newtonsoft.Json": "13.0.4",
+          "Nice3point.Revit.Extensions": "2026.1.4",
+          "Nice3point.Revit.Toolkit": "2026.1.0",
+          "Serilog.Sinks.Autodesk.Revit": "2.0.1",
+          "Serilog.Sinks.Console": "6.1.1",
+          "Serilog.Sinks.Debug": "3.0.0",
+          "System.Management": "8.0.0"
+        },
+        "runtime": {
+          "QuickSelect.dll": {
+            "assemblyVersion": "4.1.5.0",
+            "fileVersion": "4.1.5.0"
+          }
+        },
+        "resources": {
+          "de-DE/QuickSelect.resources.dll": {
+            "locale": "de-DE"
+          },
+          "es-ES/QuickSelect.resources.dll": {
+            "locale": "es-ES"
+          },
+          "fr-FR/QuickSelect.resources.dll": {
+            "locale": "fr-FR"
+          },
+          "it-IT/QuickSelect.resources.dll": {
+            "locale": "it-IT"
+          },
+          "pt-BR/QuickSelect.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "ru-RU/QuickSelect.resources.dll": {
+            "locale": "ru-RU"
+          },
+          "zh-CN/QuickSelect.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "RebarToggle/4.1.5": {
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.2",
+          "Frata.Library": "2026.1.29",
+          "Frata.Library.UI": "1.1.1",
+          "Newtonsoft.Json": "13.0.4",
+          "Nice3point.Revit.Extensions": "2026.1.4",
+          "Nice3point.Revit.Toolkit": "2026.1.0",
+          "Serilog.Sinks.Autodesk.Revit": "2.0.1",
+          "Serilog.Sinks.Console": "6.1.1",
+          "Serilog.Sinks.Debug": "3.0.0",
+          "System.Management": "8.0.0"
+        },
+        "runtime": {
+          "RebarToggle.dll": {
+            "assemblyVersion": "4.1.5.0",
+            "fileVersion": "4.1.5.0"
+          }
+        },
+        "resources": {
+          "de-DE/RebarToggle.resources.dll": {
+            "locale": "de-DE"
+          },
+          "es-Es/RebarToggle.resources.dll": {
+            "locale": "es-Es"
+          },
+          "fr-FR/RebarToggle.resources.dll": {
+            "locale": "fr-FR"
+          },
+          "it-IT/RebarToggle.resources.dll": {
+            "locale": "it-IT"
+          },
+          "pt-BR/RebarToggle.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "ru-RU/RebarToggle.resources.dll": {
+            "locale": "ru-RU"
+          },
+          "zh-CN/RebarToggle.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "RoomToFloor/4.1.5": {
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.2",
+          "Frata.Library": "2026.1.29",
+          "Frata.Library.UI": "1.1.1",
+          "Newtonsoft.Json": "13.0.4",
+          "Nice3point.Revit.Extensions": "2026.1.4",
+          "Nice3point.Revit.Toolkit": "2026.1.0",
+          "Serilog.Sinks.Autodesk.Revit": "2.0.1",
+          "Serilog.Sinks.Console": "6.1.1",
+          "Serilog.Sinks.Debug": "3.0.0",
+          "System.Management": "8.0.0"
+        },
+        "runtime": {
+          "RoomToFloor.dll": {
+            "assemblyVersion": "4.1.5.0",
+            "fileVersion": "4.1.5.0"
+          }
+        },
+        "resources": {
+          "de-DE/RoomToFloor.resources.dll": {
+            "locale": "de-DE"
+          },
+          "es-ES/RoomToFloor.resources.dll": {
+            "locale": "es-ES"
+          },
+          "fr-FR/RoomToFloor.resources.dll": {
+            "locale": "fr-FR"
+          },
+          "it-IT/RoomToFloor.resources.dll": {
+            "locale": "it-IT"
+          },
+          "pt-BR/RoomToFloor.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "ru-RU/RoomToFloor.resources.dll": {
+            "locale": "ru-RU"
+          },
+          "zh-CN/RoomToFloor.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "ScheduleExporter/4.1.5": {
+        "dependencies": {
+          "ClosedXML": "0.105.1",
+          "CommunityToolkit.Mvvm": "8.4.2",
+          "Frata.Library": "2026.1.29",
+          "Frata.Library.UI": "1.1.1",
+          "Newtonsoft.Json": "13.0.4",
+          "Nice3point.Revit.Extensions": "2026.1.4",
+          "Nice3point.Revit.Toolkit": "2026.1.0",
+          "Options": "4.1.5",
+          "Serilog.Sinks.Autodesk.Revit": "2.0.1",
+          "Serilog.Sinks.Console": "6.1.1",
+          "Serilog.Sinks.Debug": "3.0.0",
+          "System.Management": "8.0.0"
+        },
+        "runtime": {
+          "ScheduleExporter.dll": {
+            "assemblyVersion": "4.1.5.0",
+            "fileVersion": "4.1.5.0"
+          }
+        },
+        "resources": {
+          "de-DE/ScheduleExporter.resources.dll": {
+            "locale": "de-DE"
+          },
+          "es-ES/ScheduleExporter.resources.dll": {
+            "locale": "es-ES"
+          },
+          "fr-FR/ScheduleExporter.resources.dll": {
+            "locale": "fr-FR"
+          },
+          "it-IT/ScheduleExporter.resources.dll": {
+            "locale": "it-IT"
+          },
+          "pt-BR/ScheduleExporter.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "ru-RU/ScheduleExporter.resources.dll": {
+            "locale": "ru-RU"
+          },
+          "zh-CN/ScheduleExporter.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "SearchView/4.1.5": {
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.2",
+          "Frata.Library": "2026.1.29",
+          "Frata.Library.UI": "1.1.1",
+          "Newtonsoft.Json": "13.0.4",
+          "Nice3point.Revit.Extensions": "2026.1.4",
+          "Nice3point.Revit.Toolkit": "2026.1.0",
+          "Serilog.Sinks.Autodesk.Revit": "2.0.1",
+          "Serilog.Sinks.Console": "6.1.1",
+          "Serilog.Sinks.Debug": "3.0.0",
+          "System.Management": "8.0.0"
+        },
+        "runtime": {
+          "SearchView.dll": {
+            "assemblyVersion": "4.1.5.0",
+            "fileVersion": "4.1.5.0"
+          }
+        },
+        "resources": {
+          "de-DE/SearchView.resources.dll": {
+            "locale": "de-DE"
+          },
+          "es-ES/SearchView.resources.dll": {
+            "locale": "es-ES"
+          },
+          "fr-FR/SearchView.resources.dll": {
+            "locale": "fr-FR"
+          },
+          "it-IT/SearchView.resources.dll": {
+            "locale": "it-IT"
+          },
+          "pt-BR/SearchView.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "ru-RU/SearchView.resources.dll": {
+            "locale": "ru-RU"
+          },
+          "zh-CN/SearchView.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "Structure/4.1.5": {
+        "dependencies": {
+          "AlternateRebar": "4.1.5",
+          "AutoStirrups": "4.1.5",
+          "CheckRebar": "4.1.5",
+          "ColumnAligner": "4.1.5",
+          "CommunityToolkit.Mvvm": "8.4.2",
+          "DivideRebar": "4.1.5",
+          "ExtendRebar": "4.1.5",
+          "FootingRebar": "4.1.5",
+          "Frata.Library": "2026.1.29",
+          "Frata.Library.UI": "1.1.1",
+          "GroupRebar": "4.1.5",
+          "HostSync": "4.1.5",
+          "JoinRebar": "4.1.5",
+          "Newtonsoft.Json": "13.0.4",
+          "Nice3point.Revit.Extensions": "2026.1.4",
+          "Nice3point.Revit.Toolkit": "2026.1.0",
+          "RebarToggle": "4.1.5",
+          "Serilog.Sinks.Autodesk.Revit": "2.0.1",
+          "Serilog.Sinks.Console": "6.1.1",
+          "Serilog.Sinks.Debug": "3.0.0",
+          "System.Management": "8.0.0",
+          "WallRebar": "4.1.5",
+          "WallStretch": "4.1.5"
+        },
+        "runtime": {
+          "Structure.dll": {
+            "fileVersion": "0.0.0.0"
+          }
+        },
+        "resources": {
+          "de-DE/Structure.resources.dll": {
+            "locale": "de-DE"
+          },
+          "es-ES/Structure.resources.dll": {
+            "locale": "es-ES"
+          },
+          "fr-FR/Structure.resources.dll": {
+            "locale": "fr-FR"
+          },
+          "it-IT/Structure.resources.dll": {
+            "locale": "it-IT"
+          },
+          "pt-BR/Structure.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "ru-RU/Structure.resources.dll": {
+            "locale": "ru-RU"
+          },
+          "zh-CN/Structure.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "SuperMatch/4.1.5": {
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.2",
+          "Frata.Library": "2026.1.29",
+          "Frata.Library.UI": "1.1.1",
+          "Newtonsoft.Json": "13.0.4",
+          "Nice3point.Revit.Extensions": "2026.1.4",
+          "Nice3point.Revit.Toolkit": "2026.1.0",
+          "Serilog.Sinks.Autodesk.Revit": "2.0.1",
+          "Serilog.Sinks.Console": "6.1.1",
+          "Serilog.Sinks.Debug": "3.0.0",
+          "System.Management": "8.0.0"
+        },
+        "runtime": {
+          "SuperMatch.dll": {
+            "assemblyVersion": "4.1.5.0",
+            "fileVersion": "4.1.5.0"
+          }
+        },
+        "resources": {
+          "de-DE/SuperMatch.resources.dll": {
+            "locale": "de-DE"
+          },
+          "es-ES/SuperMatch.resources.dll": {
+            "locale": "es-ES"
+          },
+          "fr-FR/SuperMatch.resources.dll": {
+            "locale": "fr-FR"
+          },
+          "it-IT/SuperMatch.resources.dll": {
+            "locale": "it-IT"
+          },
+          "pt-BR/SuperMatch.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "ru-RU/SuperMatch.resources.dll": {
+            "locale": "ru-RU"
+          },
+          "zh-CN/SuperMatch.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "TransferParameters/4.1.5": {
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.2",
+          "Frata.Library": "2026.1.29",
+          "Frata.Library.UI": "1.1.1",
+          "Newtonsoft.Json": "13.0.4",
+          "Nice3point.Revit.Extensions": "2026.1.4",
+          "Nice3point.Revit.Toolkit": "2026.1.0",
+          "Serilog.Sinks.Autodesk.Revit": "2.0.1",
+          "Serilog.Sinks.Console": "6.1.1",
+          "Serilog.Sinks.Debug": "3.0.0",
+          "System.Management": "8.0.0"
+        },
+        "runtime": {
+          "TransferParameters.dll": {
+            "assemblyVersion": "4.1.5.0",
+            "fileVersion": "4.1.5.0"
+          }
+        },
+        "resources": {
+          "de-DE/TransferParameters.resources.dll": {
+            "locale": "de-DE"
+          },
+          "es-ES/TransferParameters.resources.dll": {
+            "locale": "es-ES"
+          },
+          "fr-FR/TransferParameters.resources.dll": {
+            "locale": "fr-FR"
+          },
+          "it-IT/TransferParameters.resources.dll": {
+            "locale": "it-IT"
+          },
+          "pt-BR/TransferParameters.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "ru-RU/TransferParameters.resources.dll": {
+            "locale": "ru-RU"
+          },
+          "zh-CN/TransferParameters.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "ViewTransfer/4.1.5": {
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.2",
+          "Frata.Library": "2026.1.29",
+          "Frata.Library.UI": "1.1.1",
+          "Newtonsoft.Json": "13.0.4",
+          "Nice3point.Revit.Extensions": "2026.1.4",
+          "Nice3point.Revit.Toolkit": "2026.1.0",
+          "Serilog.Sinks.Autodesk.Revit": "2.0.1",
+          "Serilog.Sinks.Console": "6.1.1",
+          "Serilog.Sinks.Debug": "3.0.0",
+          "System.Management": "8.0.0"
+        },
+        "runtime": {
+          "ViewTransfer.dll": {
+            "assemblyVersion": "4.1.5.0",
+            "fileVersion": "4.1.5.0"
+          }
+        },
+        "resources": {
+          "de-DE/ViewTransfer.resources.dll": {
+            "locale": "de-DE"
+          },
+          "es-ES/ViewTransfer.resources.dll": {
+            "locale": "es-ES"
+          },
+          "fr-FR/ViewTransfer.resources.dll": {
+            "locale": "fr-FR"
+          },
+          "it-IT/ViewTransfer.resources.dll": {
+            "locale": "it-IT"
+          },
+          "pt-BR/ViewTransfer.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "ru-RU/ViewTransfer.resources.dll": {
+            "locale": "ru-RU"
+          },
+          "zh-CN/ViewTransfer.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "WallRebar/4.1.5": {
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.2",
+          "Frata.Library": "2026.1.29",
+          "Frata.Library.UI": "1.1.1",
+          "Newtonsoft.Json": "13.0.4",
+          "Nice3point.Revit.Extensions": "2026.1.4",
+          "Nice3point.Revit.Toolkit": "2026.1.0",
+          "Serilog.Sinks.Autodesk.Revit": "2.0.1",
+          "Serilog.Sinks.Console": "6.1.1",
+          "Serilog.Sinks.Debug": "3.0.0",
+          "System.Management": "8.0.0"
+        },
+        "runtime": {
+          "WallRebar.dll": {
+            "assemblyVersion": "4.1.5.0",
+            "fileVersion": "4.1.5.0"
+          }
+        },
+        "resources": {
+          "de-DE/WallRebar.resources.dll": {
+            "locale": "de-DE"
+          },
+          "es-ES/WallRebar.resources.dll": {
+            "locale": "es-ES"
+          },
+          "fr-FR/WallRebar.resources.dll": {
+            "locale": "fr-FR"
+          },
+          "it-IT/WallRebar.resources.dll": {
+            "locale": "it-IT"
+          },
+          "pt-BR/WallRebar.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "ru-RU/WallRebar.resources.dll": {
+            "locale": "ru-RU"
+          },
+          "zh-CN/WallRebar.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "WallStretch/4.1.5": {
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.2",
+          "Frata.Library": "2026.1.29",
+          "Frata.Library.UI": "1.1.1",
+          "Newtonsoft.Json": "13.0.4",
+          "Nice3point.Revit.Extensions": "2026.1.4",
+          "Nice3point.Revit.Toolkit": "2026.1.0",
+          "Serilog.Sinks.Autodesk.Revit": "2.0.1",
+          "Serilog.Sinks.Console": "6.1.1",
+          "Serilog.Sinks.Debug": "3.0.0",
+          "System.Management": "8.0.0"
+        },
+        "runtime": {
+          "WallStretch.dll": {
+            "assemblyVersion": "4.1.5.0",
+            "fileVersion": "4.1.5.0"
+          }
+        },
+        "resources": {
+          "de-DE/WallStretch.resources.dll": {
+            "locale": "de-DE"
+          },
+          "es-ES/WallStretch.resources.dll": {
+            "locale": "es-ES"
+          },
+          "fr-FR/WallStretch.resources.dll": {
+            "locale": "fr-FR"
+          },
+          "it-IT/WallStretch.resources.dll": {
+            "locale": "it-IT"
+          },
+          "pt-BR/WallStretch.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "ru-RU/WallStretch.resources.dll": {
+            "locale": "ru-RU"
+          },
+          "zh-CN/WallStretch.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "Architecture.Reference/4.1.5.0": {
+        "runtime": {
+          "Architecture.dll": {
+            "assemblyVersion": "4.1.5.0",
+            "fileVersion": "4.1.5.0"
+          }
+        },
+        "resources": {
+          "de-DE/Architecture.resources.dll": {
+            "locale": "de-DE"
+          },
+          "es-ES/Architecture.resources.dll": {
+            "locale": "es-ES"
+          },
+          "fr-FR/Architecture.resources.dll": {
+            "locale": "fr-FR"
+          },
+          "it-IT/Architecture.resources.dll": {
+            "locale": "it-IT"
+          },
+          "pt-BR/Architecture.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "ru-RU/Architecture.resources.dll": {
+            "locale": "ru-RU"
+          },
+          "zh-CN/Architecture.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "Drawing2D.Reference/4.1.5.0": {
+        "runtime": {
+          "Drawing2D.dll": {
+            "assemblyVersion": "4.1.5.0",
+            "fileVersion": "4.1.5.0"
+          }
+        },
+        "resources": {
+          "de-DE/Drawing2D.resources.dll": {
+            "locale": "de-DE"
+          },
+          "es-ES/Drawing2D.resources.dll": {
+            "locale": "es-ES"
+          },
+          "fr-FR/Drawing2D.resources.dll": {
+            "locale": "fr-FR"
+          },
+          "it-IT/Drawing2D.resources.dll": {
+            "locale": "it-IT"
+          },
+          "pt-BR/Drawing2D.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "ru-RU/Drawing2D.resources.dll": {
+            "locale": "ru-RU"
+          },
+          "zh-CN/Drawing2D.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "Manage.Reference/4.1.5.0": {
+        "runtime": {
+          "Manage.dll": {
+            "assemblyVersion": "4.1.5.0",
+            "fileVersion": "4.1.5.0"
+          }
+        },
+        "resources": {
+          "de-DE/Manage.resources.dll": {
+            "locale": "de-DE"
+          },
+          "es-ES/Manage.resources.dll": {
+            "locale": "es-ES"
+          },
+          "fr-FR/Manage.resources.dll": {
+            "locale": "fr-FR"
+          },
+          "it-IT/Manage.resources.dll": {
+            "locale": "it-IT"
+          },
+          "pt-BR/Manage.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "ru-RU/Manage.resources.dll": {
+            "locale": "ru-RU"
+          },
+          "zh-CN/Manage.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "MEP.Reference/4.1.5.0": {
+        "runtime": {
+          "MEP.dll": {
+            "assemblyVersion": "4.1.5.0",
+            "fileVersion": "4.1.5.0"
+          }
+        },
+        "resources": {
+          "de-DE/MEP.resources.dll": {
+            "locale": "de-DE"
+          },
+          "es-ES/MEP.resources.dll": {
+            "locale": "es-ES"
+          },
+          "fr-FR/MEP.resources.dll": {
+            "locale": "fr-FR"
+          },
+          "it-IT/MEP.resources.dll": {
+            "locale": "it-IT"
+          },
+          "pt-BR/MEP.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "ru-RU/MEP.resources.dll": {
+            "locale": "ru-RU"
+          },
+          "zh-CN/MEP.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "Navigate.Reference/4.1.5.0": {
+        "runtime": {
+          "Navigate.dll": {
+            "assemblyVersion": "4.1.5.0",
+            "fileVersion": "4.1.5.0"
+          }
+        },
+        "resources": {
+          "de-DE/Navigate.resources.dll": {
+            "locale": "de-DE"
+          },
+          "es-ES/Navigate.resources.dll": {
+            "locale": "es-ES"
+          },
+          "fr-FR/Navigate.resources.dll": {
+            "locale": "fr-FR"
+          },
+          "it-IT/Navigate.resources.dll": {
+            "locale": "it-IT"
+          },
+          "pt-BR/Navigate.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "ru-RU/Navigate.resources.dll": {
+            "locale": "ru-RU"
+          },
+          "zh-CN/Navigate.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "Structure.Reference/4.1.5.0": {
+        "runtime": {
+          "Structure.dll": {
+            "assemblyVersion": "4.1.5.0",
+            "fileVersion": "4.1.5.0"
+          }
+        },
+        "resources": {
+          "de-DE/Structure.resources.dll": {
+            "locale": "de-DE"
+          },
+          "es-ES/Structure.resources.dll": {
+            "locale": "es-ES"
+          },
+          "fr-FR/Structure.resources.dll": {
+            "locale": "fr-FR"
+          },
+          "it-IT/Structure.resources.dll": {
+            "locale": "it-IT"
+          },
+          "pt-BR/Structure.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "ru-RU/Structure.resources.dll": {
+            "locale": "ru-RU"
+          },
+          "zh-CN/Structure.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FrataTools/4.1.5": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ClosedXML/0.105.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-X1ruIP9h2FBEK7jmO0peq3s6/Zqt5ve5a9f9kn6WUjdsUWvGbQlqxuGLz822xuFLlmnSeAfWFTGeX/tZlmAt+g==",
+      "path": "closedxml/0.105.1",
+      "hashPath": "closedxml.0.105.1.nupkg.sha512"
+    },
+    "ClosedXML.Parser/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ngTqjYreDYNytG1W5d3ewHsw0ukmmrgV7EKnS4/40rXoYZGt07jrBvo+N+GxT49rcageUMUiprV0jYT4nwVBHQ==",
+      "path": "closedxml.parser/2.0.0",
+      "hashPath": "closedxml.parser.2.0.0.nupkg.sha512"
+    },
+    "CommunityToolkit.Mvvm/8.4.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WadCzGEc2U+3e20avRLng4qNtt4zoOGWrdUISqJWrHe3/FSnrYjuM5Sb4yQb09LhkBXrrI4Zt3dLKgRMbItsrg==",
+      "path": "communitytoolkit.mvvm/8.4.2",
+      "hashPath": "communitytoolkit.mvvm.8.4.2.nupkg.sha512"
+    },
+    "DocumentFormat.OpenXml/3.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2z9QBzeTLNNKWM9SaOSDMegfQk/7hDuElOsmF77pKZMkFRP/GHA/W/4yOAQD9kn15N/FsFxHn3QVYkatuZghiA==",
+      "path": "documentformat.openxml/3.1.1",
+      "hashPath": "documentformat.openxml.3.1.1.nupkg.sha512"
+    },
+    "DocumentFormat.OpenXml.Framework/3.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6APEp/ElZV58S/4v8mf4Ke3ONEDORs64MqdD64Z7wWpcHANB9oovQsGIwtqjnKihulOj7T0a6IxHIHOfMqKOng==",
+      "path": "documentformat.openxml.framework/3.1.1",
+      "hashPath": "documentformat.openxml.framework.3.1.1.nupkg.sha512"
+    },
+    "ExcelNumberFormat/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-R3BVHPs9O+RkExbZYTGT0+9HLbi8ZrNij1Yziyw6znd3J7P3uoIR07uwTLGOogtz1p6+0sna66eBoXu7tBiVQA==",
+      "path": "excelnumberformat/1.1.0",
+      "hashPath": "excelnumberformat.1.1.0.nupkg.sha512"
+    },
+    "Frata.Library/2026.1.29": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kiuzWnnkojMH0mQ8cKiGhJ7qg+OSjENlFMxchPijyB9zQYu3GGIBCFNKZ+g/uNWHXA9FhSL3ZqcSvHqKvUfFsg==",
+      "path": "frata.library/2026.1.29",
+      "hashPath": "frata.library.2026.1.29.nupkg.sha512"
+    },
+    "Frata.Library.UI/1.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-N2L8bYhwn2NoTJyDhBZ8U5oC3rZyGYML50e4utcBqN4qLbAB2XfZJsByoMboOEQBBn6HCBx7nHJM/E3rQaEKrQ==",
+      "path": "frata.library.ui/1.1.1",
+      "hashPath": "frata.library.ui.1.1.1.nupkg.sha512"
+    },
+    "Hangfire.Core/1.8.25": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BxzXlHwXNrGPHJ7YfAVfeiXC+BHd6uPoyyfV+9bCJVPPGs4z0EQCW1X44Og/IUFM81ENCqAFP1r2rOkQhm4ydA==",
+      "path": "hangfire.core/1.8.25",
+      "hashPath": "hangfire.core.1.8.25.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pdgNNMai3zv51W5aq268sujXUyx7SNdE2bj1wZcWjAQrKMFZV260lbqYop1d2GM67JI1huLRwxo9ZqnfF/lC6A==",
+      "path": "newtonsoft.json/13.0.4",
+      "hashPath": "newtonsoft.json.13.0.4.nupkg.sha512"
+    },
+    "Nice3point.Revit.Extensions/2026.1.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-W4brEbS2SeEZYbVoBNjnwEGdtimRkU0FO7zU2TLtF4paes31DvtaTRQHmWsMn8F/VS/B3Cj0w4pAn2No4GYCnA==",
+      "path": "nice3point.revit.extensions/2026.1.4",
+      "hashPath": "nice3point.revit.extensions.2026.1.4.nupkg.sha512"
+    },
+    "Nice3point.Revit.Toolkit/2026.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-K6Oe0R4jFNDkvCfa2eDU0hWTqHQvysqs7kgEocY7I5h0yWP+7zQ8C/PZqNs1H6zPQrAwX6ndIZz+Vs4LSd3X4g==",
+      "path": "nice3point.revit.toolkit/2026.1.0",
+      "hashPath": "nice3point.revit.toolkit.2026.1.0.nupkg.sha512"
+    },
+    "RBush.Signed/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aP5KQxL5RnFNGW1f0euYVBfCatkLw5iEzMRJcXKq8LWWP4Cp3+qoSq1tDDL2vvJ2rM0ychmVMa2VaEKLS6uX4w==",
+      "path": "rbush.signed/4.0.0",
+      "hashPath": "rbush.signed.4.0.0.nupkg.sha512"
+    },
+    "Serilog/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2jDkUrSh5EofOp7Lx5Zgy0EB+7hXjjxE2ktTb1WVQmU00lDACR2TdROGKU0K1pDTBSJBN1PqgYpgOZF8mL7NJw==",
+      "path": "serilog/4.0.0",
+      "hashPath": "serilog.4.0.0.nupkg.sha512"
+    },
+    "Serilog.Sinks.Autodesk.Revit/2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GRVMaAwsSyVNP3TY74AS0nvjM6338Q2fBWg6Lan74GYBEbEh4aa46k9e88eQT0lRIYn6WVkcUe264mtRxBrQHg==",
+      "path": "serilog.sinks.autodesk.revit/2.0.1",
+      "hashPath": "serilog.sinks.autodesk.revit.2.0.1.nupkg.sha512"
+    },
+    "Serilog.Sinks.Console/6.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8jbqgjUyZlfCuSTaJk6lOca465OndqOz3KZP6Cryt/IqZYybyBu7GP0fE/AXBzrrQB3EBmQntBFAvMVz1COvAA==",
+      "path": "serilog.sinks.console/6.1.1",
+      "hashPath": "serilog.sinks.console.6.1.1.nupkg.sha512"
+    },
+    "Serilog.Sinks.Debug/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4BzXcdrgRX7wde9PmHuYd9U6YqycCC28hhpKonK7hx0wb19eiuRj16fPcPSVp0o/Y1ipJuNLYQ00R3q2Zs8FDA==",
+      "path": "serilog.sinks.debug/3.0.0",
+      "hashPath": "serilog.sinks.debug.3.0.0.nupkg.sha512"
+    },
+    "SixLabors.Fonts/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LFQsCZlV0xlUyXAOMUo5kkSl+8zAQXXbbdwWchtk0B4o7zotZhQsQOcJUELGHdfPfm/xDAsz6hONAuV25bJaAg==",
+      "path": "sixlabors.fonts/1.0.0",
+      "hashPath": "sixlabors.fonts.1.0.0.nupkg.sha512"
+    },
+    "System.IO.Packaging/8.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KYkIOAvPexQOLDxPO2g0BVoWInnQhPpkFzRqvNrNrMhVT6kqhVr0zEb6KCHlptLFukxnZrjuMVAnxK7pOGUYrw==",
+      "path": "system.io.packaging/8.0.1",
+      "hashPath": "system.io.packaging.8.0.1.nupkg.sha512"
+    },
+    "System.Management/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jrK22i5LRzxZCfGb+tGmke2VH7oE0DvcDlJ1HAKYU8cPmD8XnpUT0bYn2Gy98GEhGjtfbR/sxKTVb+dE770pfA==",
+      "path": "system.management/8.0.0",
+      "hashPath": "system.management.8.0.0.nupkg.sha512"
+    },
+    "AlternateRebar/4.1.5": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Architecture/4.1.5": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AutoStirrups/4.1.5": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BimSyntax/4.1.5": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CheckRebar/4.1.5": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ColumnAligner/4.1.5": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DataExplorer/4.1.5": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DeleteSystem/4.1.5": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Disconnet/4.1.5": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DivideRebar/4.1.5": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Drawing2D/4.1.5": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ElbowCreator/4.1.5": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Exportify/4.1.5": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ExtendRebar/4.1.5": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FittingExtender/4.1.5": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FootingAnnotation/4.1.5": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FootingRebar/4.1.5": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FreezeElements/4.1.5": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GridAssigner/4.1.5": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GroupRebar/4.1.5": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HostSync/4.1.5": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "IDWriter/4.1.5": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "JoinRebar/4.1.5": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LevelMapper/4.1.5": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Manage/4.1.5": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MEP/4.1.5": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MoveConnect/4.1.5": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Navigate/4.1.5": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OpenModelFolder/4.1.5": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Options/4.1.5": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ParameterCatalog/4.1.5": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PipeAligner/4.1.5": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PipeSloper/4.1.5": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "QuickSelect/4.1.5": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RebarToggle/4.1.5": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RoomToFloor/4.1.5": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ScheduleExporter/4.1.5": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SearchView/4.1.5": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Structure/4.1.5": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SuperMatch/4.1.5": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TransferParameters/4.1.5": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ViewTransfer/4.1.5": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WallRebar/4.1.5": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WallStretch/4.1.5": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Architecture.Reference/4.1.5.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Drawing2D.Reference/4.1.5.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Manage.Reference/4.1.5.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MEP.Reference/4.1.5.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Navigate.Reference/4.1.5.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Structure.Reference/4.1.5.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
