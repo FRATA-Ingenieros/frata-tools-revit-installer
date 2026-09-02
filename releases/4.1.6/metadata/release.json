@@ -1,0 +1,37 @@
+﻿{
+    "version":  "4.1.6",
+    "company":  "Frata Ingenieros SAC",
+    "authors":  "Franklin James Cabrera Bravo",
+    "copyright":  "Copyright Â© $(CopyrightYears) $(Company)",
+    "releaseDateUtc":  "2026-09-02T16:18:09.8652466Z",
+    "installer":  "FrataTools-4.1.6.exe",
+    "installerPath":  "https://github.com/FRATA-Ingenieros/frata-tools-revit-installer/releases/download/v4.1.6/FrataTools-4.1.6.exe",
+    "releasePage":  "https://github.com/FRATA-Ingenieros/frata-tools-revit-installer/releases/tag/v4.1.6",
+    "metadataSource":  "releases/4.1.6/metadata/Directory.Build.props",
+    "revitArtifacts":  [
+                           {
+                               "revitYear":  "2022",
+                               "configuration":  "Release R22"
+                           },
+                           {
+                               "revitYear":  "2023",
+                               "configuration":  "Release R23"
+                           },
+                           {
+                               "revitYear":  "2024",
+                               "configuration":  "Release R24"
+                           },
+                           {
+                               "revitYear":  "2025",
+                               "configuration":  "Release R25"
+                           },
+                           {
+                               "revitYear":  "2026",
+                               "configuration":  "Release R26"
+                           },
+                           {
+                               "revitYear":  "2027",
+                               "configuration":  "Release R27"
+                           }
+                       ]
+}
