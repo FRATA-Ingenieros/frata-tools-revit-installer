@@ -1,0 +1,15 @@
+# Artefactos binarios de release.
+#
+# El .exe del instalador y los binarios por anio de Revit ya NO se versionan
+# aqui: se publican como assets del GitHub Release (que es lo unico que
+# consume FrataTools.Updater). En git solo viven los metadatos de texto:
+#   releases/<version>/metadata/release.json
+#   releases/<version>/metadata/Directory.Build.props
+#   latest.json
+#   README.md
+releases/*/installer/
+releases/*/revit/
+releases/*/**/*.exe
+releases/*/**/*.msi
+releases/*/**/*.dll
+releases/*/**/*.zip
