@@ -1,7 +1,7 @@
 ﻿{
-    "latestVersion":  "4.1.12",
-    "updatedAtUtc":  "2026-10-05T17:19:43.7723494Z",
-    "releaseMetadata":  "releases/4.1.12/metadata/release.json",
-    "installerUrl":  "https://github.com/FRATA-Ingenieros/frata-tools-revit-installer/releases/download/v4.1.12/FrataTools-4.1.12.exe",
-    "releasePage":  "https://github.com/FRATA-Ingenieros/frata-tools-revit-installer/releases/tag/v4.1.12"
+    "latestVersion":  "4.2.0",
+    "updatedAtUtc":  "2026-10-27T14:11:41.7710788Z",
+    "releaseMetadata":  "releases/4.2.0/metadata/release.json",
+    "installerUrl":  "https://github.com/FRATA-Ingenieros/frata-tools-revit-installer/releases/download/v4.2.0/FrataTools-4.2.0.exe",
+    "releasePage":  "https://github.com/FRATA-Ingenieros/frata-tools-revit-installer/releases/tag/v4.2.0"
 }
