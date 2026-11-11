@@ -10,20 +10,20 @@ La version mas reciente disponible es:
 
 | Version | Fecha de publicacion | Revit compatible | Instalador |
 | --- | --- | --- | --- |
-| `4.3.0` | 10/11/2026 | Revit 2022, 2023, 2024, 2025, 2026, 2027 | [`FrataTools-4.3.0.exe`](https://github.com/FRATA-Ingenieros/frata-tools-revit-installer/releases/download/v4.3.0/FrataTools-4.3.0.exe) |
+| `4.4.0` | 11/11/2026 | Revit 2022, 2023, 2024, 2025, 2026, 2027 | [`FrataTools-4.4.0.exe`](https://github.com/FRATA-Ingenieros/frata-tools-revit-installer/releases/download/v4.4.0/FrataTools-4.4.0.exe) |
 
 ## Como instalar
 
-1. Descargar el instalador: [`FrataTools-4.3.0.exe`](https://github.com/FRATA-Ingenieros/frata-tools-revit-installer/releases/download/v4.3.0/FrataTools-4.3.0.exe)
+1. Descargar el instalador: [`FrataTools-4.4.0.exe`](https://github.com/FRATA-Ingenieros/frata-tools-revit-installer/releases/download/v4.4.0/FrataTools-4.4.0.exe)
 2. Cerrar Autodesk Revit antes de iniciar la instalacion.
-3. Ejecutar el archivo `FrataTools-4.3.0.exe`.
+3. Ejecutar el archivo `FrataTools-4.4.0.exe`.
 4. Seguir los pasos del asistente de instalacion.
 5. Abrir Revit.
 6. Verificar que Frata Tools aparezca en la cinta de herramientas de Revit.
 
 ## Versiones de Revit soportadas
 
-La version `4.3.0` incluye soporte para:
+La version `4.4.0` incluye soporte para:
 
 | Autodesk Revit | Estado |
 | --- | --- |
@@ -38,6 +38,7 @@ La version `4.3.0` incluye soporte para:
 
 | Version | Fecha | Revit soportado | Notas |
 | --- | --- | --- | --- |
+| `4.4.0` | 11/11/2026 | 2022, 2023, 2024, 2025, 2026, 2027 | Version publicada del instalador de Frata Tools. |
 | `4.3.0` | 10/11/2026 | 2022, 2023, 2024, 2025, 2026, 2027 | Version publicada del instalador de Frata Tools. |
 | `4.2.1` | 06/11/2026 | 2022, 2023, 2024, 2025, 2026, 2027 | Version publicada del instalador de Frata Tools. |
 | `4.2.0` | 27/10/2026 | 2022, 2023, 2024, 2025, 2026, 2027 | Version publicada del instalador de Frata Tools. |
@@ -92,7 +93,7 @@ La version `4.3.0` incluye soporte para:
 
 El instalador de la version actual se encuentra en:
 
-👉 **[Descargar FrataTools v4.3.0](https://github.com/FRATA-Ingenieros/frata-tools-revit-installer/releases/download/v4.3.0/FrataTools-4.3.0.exe)**  ·  [Notas de la version](https://github.com/FRATA-Ingenieros/frata-tools-revit-installer/releases/tag/v4.3.0)
+👉 **[Descargar FrataTools v4.4.0](https://github.com/FRATA-Ingenieros/frata-tools-revit-installer/releases/download/v4.4.0/FrataTools-4.4.0.exe)**  ·  [Notas de la version](https://github.com/FRATA-Ingenieros/frata-tools-revit-installer/releases/tag/v4.4.0)
 
 ## Soporte
 
